@@ -1,22 +1,19 @@
 Tier I  - Frequently Asked Questions (FAQ)
 
 
-Tier I  - Frequently Asked Questions (FAQ)	1
-Objective:	2
-FAQ Questions:	2
-Onboarding new users to Datahub:	2
-Changing existing requirements:	2
-Troubleshooting issues in the Hub:	3
-Building new features in the Hub:	3
-Sharing information about the Hub:	3
-FAQ Responses:	4
 
-
-Objective:
-Provide FAQ’s to Datahub evangelists who can solve critical issues identified by the students 
 FAQ Questions:
+
+```{note}
+
 Onboarding new users to the Hub:
+```
+
+```{mydirectivename}
 I am new to Datahub. What are the varied resources that I can review to onboard myself?
+```
+
+
 What are the programming languages supported by the hub?
 Which operating systems are supported?
 How many hubs across the campus exist? Which courses use them extensively?
