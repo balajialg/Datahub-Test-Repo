@@ -1,32 +1,36 @@
 # Frequently Asked Questions
 
+```{tableofcontents}
+Onboarding new users to the Hub:
+Changing existing requirements:
+```
+
 ```{tabbed} Onboarding new users to the Hub:
-I am new to Datahub. What are the varied resources that I can review to onboard myself?
-What are the programming languages supported by the hub?
-How many hubs across the campus exist? Which courses use them extensively?
-What is the default Memory/CPU requirement for every hub?
-What criteria determine the memory allocated to each user in a specific hub?
-What are the packages pre-installed for every hub?
-What is the process to raise issues? How can I track the issues raised?
-When do I receive a response when an issue gets raised?
-Are there existing templates for submitting requests to the infrastructure team?
-Should I pay for being part of the existing hubs or provisioning a new hub for myself?
-What does admin access in the hub mean? 
-As an instructor, What is the process to create a hub for teaching a course?
+1. What are the varied resources that I can review to onboard myself?
+2. What programming languages are supported by the hub?
+3. How many hubs across the campus exist? Which courses use them extensively?
+4. What is the default Memory/CPU requirement for every hub?
+5. What criteria determine the memory allocated to each user in a specific hub?
+6. What are the packages pre-installed for every hub?
+7. What is the process to raise Github issues? How can I track the raised issues?
+8. When do I receive a response when an issue gets raised?
+9. Are there existing templates for submitting requests to the infrastructure team?
+10. As an instructor, What is the process to create a hub for teaching a course?
 ```
 
 ```{tabbed} Changing existing requirements:
-What should I do if I want to increase the RAM size in my hub?
-What should I do if I need more CPU power as part of my hub?
-What should I do if I want to install more packages? 
-As an instructor, What should I do if I want to conduct a workshop? Are there any existing hubs that I could repurpose?
-As a researcher, What is the process to request a hub focused on research?
-I am going to run a large dataset for my class. What are the steps I can take to ensure that the hub has the required compute power?
-What should I do If I want to switch from an existing hub to an R hub?
-As an instructor, Can I request a custom image with different installation requirements?
+- What should I do if I want to increase the RAM size in my hub?
+- What should I do if I need more CPU power as part of my hub?
+- What should I do if I want to install more packages? 
+- As an instructor, What should I do if I want to conduct a workshop? Are there any existing hubs that I could repurpose?
+- As a researcher, What is the process to request a hub focused on research?
+- I am going to run a large dataset for my class. What are the steps I can take to ensure that the hub has the required compute power?
+- What should I do If I want to switch from an existing hub to an R hub?
+- As an instructor, Can I request a custom image with different installation requirements?
 ```
 
 ```{tabbed} Admin Privileges:
+11. What does admin access in the hub mean? 
 How do I get access to the admin view? 
 What are my roles and responsibilities as admin?
 How do I stop a student server from the admin view?
