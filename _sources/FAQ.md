@@ -1,25 +1,19 @@
-Tier I  - Frequently Asked Questions (FAQ)
+###Tier I  - Frequently Asked Questions (FAQ)
 
-
-Tier I  - Frequently Asked Questions (FAQ)	1
-Objective:	2
-FAQ Questions:	2
-Onboarding new users to Datahub:	2
-Changing existing requirements:	2
-Troubleshooting issues in the Hub:	3
-Building new features in the Hub:	3
-Sharing information about the Hub:	3
-FAQ Responses:	4
-
-
-Objective:
-Provide FAQ’s to Datahub evangelists who can solve critical issues identified by the students 
-FAQ Questions:
-Onboarding new users to the Hub:
+```{tabbed} Onboarding new users to the Hub:
+```{mydirectivename}
 I am new to Datahub. What are the varied resources that I can review to onboard myself?
-What are the programming languages supported by the hub?
-Which operating systems are supported?
-How many hubs across the campus exist? Which courses use them extensively?
+```
+
+```{admonition} What are the programming languages supported by the hub?
+
+```
+
+```{admonition} How many hubs across the campus exist? Which courses use them extensively?
+
+```
+
+
 What is the default Memory/CPU requirement for every hub?
 What criteria determine the memory allocated to each user in a specific hub?
 What are the packages pre-installed for every hub?
@@ -29,8 +23,9 @@ Are there existing templates for submitting requests to the infrastructure team?
 Should I pay for being part of the existing hubs or provisioning a new hub for myself?
 What does admin access in the hub mean? 
 As an instructor, What is the process to create a hub for teaching a course?
- 
-Changing existing requirements:
+```
+
+```{tabbed} Changing existing requirements:
 What should I do if I want to increase the RAM size in my hub?
 What should I do if I need more CPU power as part of my hub?
 What should I do if I want to install more packages? 
@@ -39,11 +34,15 @@ As a researcher, What is the process to request a hub focused on research?
 I am going to run a large dataset for my class. What are the steps I can take to ensure that the hub has the required compute power?
 What should I do If I want to switch from an existing hub to an R hub?
 As an instructor, Can I request a custom image with different installation requirements?
-Admin Privileges:
+```
+
+```{tabbed} Admin Privileges:
 How do I get access to the admin view? 
 What are my roles and responsibilities as admin?
 How do I stop a student server from the admin view?
-Troubleshooting issues in the Hub:
+```
+
+```{tabbed} Troubleshooting issues in the Hub:
 What should I do if my hub is running slow?
 What should I do if my code is running slow?
 What should I do if I get 503 errors regularly?
@@ -60,31 +59,16 @@ System has not been booted with systemd as init system (PID 1). Can't operate. F
 "no nodes available" / "insufficient memory" etc. 
 “[Normal] Pulling image” 
 What should I do if I have an issue that has not been documented in the FAQ?
-             
- Building new features in the Hub:	
+```
+
+```{tabbed}  Building new features in the Hub:	
 How do I raise a new requirement for the hub?
 Where will I get updates/notifications about the Datahub feature releases?
 How can I collaborate with other users on a notebook at the same time?
 How can I contribute to the open source community building this tool?
+```
 
-Sharing information about the Hub:
+```{tabbed} Sharing information about the Hub:
 How do I spread the word about the hub?
-
-
-FAQ Responses:
-Onboarding new users to Datahub:
-I am new to Datahub. What are the varied resources that I can review to onboard myself?
-Do refer to Zero to JupyterHub on Kubernetes documentation
-Learn more about how to use the Datahub service by referring to the documentation
-
-I would like to refer users to this documentation https://ds-modules.github.io/curriculum-guide/workflow/collecting-grading-assignments.html  and improve it to the point that it has guides for some more of the things in this document - I am OK to relabel / retitle the book for these purposes
-
-What are the programming languages supported by the hub?
-Julia, Python and R are the programming languages supported by Datahub.
-
-16 -  Which browsers are supported to access the Hub - 
-Might be good to redo this to make it clear that the Jupyterhub is accessible across platforms… Problems have been reported with Microsoft Edge,  Chrome is recommended
-
-How many hubs across the campus exist? Which courses use them extensively?
-10+ hubs exist across the campus. Listing the hubs below for your reference,
+```
 
