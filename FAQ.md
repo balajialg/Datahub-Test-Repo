@@ -1,4 +1,4 @@
-###Tier I  - Frequently Asked Questions (FAQ)
+# Frequently Asked Questions
 
 ```{tabbed} Onboarding new users to the Hub:
 I am new to Datahub. What are the varied resources that I can review to onboard myself?
