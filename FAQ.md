@@ -1,12 +1,19 @@
-#Tier I  - Frequently Asked Questions (FAQ)
+###Tier I  - Frequently Asked Questions (FAQ)
 
 ```{tabbed} Onboarding new users to the Hub:
 ```{mydirectivename}
 I am new to Datahub. What are the varied resources that I can review to onboard myself?
 ```
-What are the programming languages supported by the hub?
-Which operating systems are supported?
-How many hubs across the campus exist? Which courses use them extensively?
+
+```{admonition} What are the programming languages supported by the hub?
+
+```
+
+```{admonition} How many hubs across the campus exist? Which courses use them extensively?
+
+```
+
+
 What is the default Memory/CPU requirement for every hub?
 What criteria determine the memory allocated to each user in a specific hub?
 What are the packages pre-installed for every hub?
