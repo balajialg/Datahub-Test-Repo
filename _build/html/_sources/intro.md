@@ -1,16 +1,5 @@
-# Welcome to your Jupyter Book
+#Datahub Frequently Asked Questions
 
-This is a small sample book to give you a feel for how book content is
-structured.
+Hi All, We are trying to highlight some of the common issues faced by our users across different hubs and the potential solutions that you could explore befor escalating the issues to us.
 
-:::{note}
-Here is a note! We are trying to build a HTML page using gh-import python package to simplify our documentation
-:::
-
-And here is a code block:
-
-```
-e = mc^2
-```
-
-Check out the content pages bundled with this sample book to see more.
+FAQ page will highlight some of the common issues/questions and our responses to the same.
