@@ -4,7 +4,4 @@
 format: jb-book
 root: FAQ
 chapters:
-- file: intro
 - file: FAQ/intro
-  sections:
-  - file: FAQ/markdown
