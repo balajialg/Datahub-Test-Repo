@@ -4,4 +4,9 @@
 format: jb-book
 root: FAQ
 chapters:
-- file: FAQ/intro
+- file: onboarding
+- file: changerequirements
+- file: admin
+- file: troubleshoot
+- file: features
+- file: share
