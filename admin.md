@@ -14,9 +14,10 @@ Admin access provides following features,
 2. You can access the student server having issues and debug their instance
 
 Check this image to know where to find the admin option
-```{figure} admin.png
+```{figure} ../images/admin.png
 :height: 150px
-:name: Datahub Admin
+:width: 200px
+:name: Datahub Admin snapshot
 
 Here is where you can find admin option!
 ```
