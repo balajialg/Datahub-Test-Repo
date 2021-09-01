@@ -214,11 +214,15 @@
 <ul class="simple">
 <li><p>What should I do if my hub is running slow?</p></li>
 </ul>
-<p>Restart your kernel if your hub is running slow</p>
-<p>Check whether there are lot of open tabs? If yes, close the tabs that are not required</p>
+<p>Try these couple of options and if they don’t work then do reach out to us immediately,</p>
+<ul class="simple">
+<li><p>Restart your kernel if your hub is running slow</p></li>
+<li><p>Check whether there are lot of open tabs? If yes, close the tabs that are not required</p></li>
+</ul>
 <ul class="simple">
 <li><p>What should I do if my code is running slow?</p></li>
 </ul>
+<p>Your code running slow in general could be attributed to the varied programming practices that would have slowed the operation of the hub.</p>
 <p>Check whether your code does the following,</p>
 <ol class="simple">
 <li><p>You are running an Infinite loop</p></li>
@@ -232,30 +236,34 @@
 </ul>
 <p>This error could be due to some of our stability improvements.</p>
 <p>To start with, Try restarting your server. Wait for sometime to see whether the issue still persists.</p>
-<p>If yes, raise a github issue so that we can take a look at it.</p>
+<p>If yes, raise a github <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new/choose">issue</a> so that we can take a look at it.</p>
 <ul class="simple">
 <li><p>What should I do if I get “403 errors: Blocking request from unknown origin” regularly?</p></li>
 </ul>
-<p>It could be due to multiple reasons,</p>
-<p>You are using a different domain other than <a class="reference external" href="http://berkeley.edu">berkeley.edu</a> which could have potentially raised this issue.</p>
-<p>Large number of your students are trying to use the service resulting in failure of certain nodes</p>
-<p>If that be the case raise a github issue, so that we can authorize your domain.</p>
+<p>This error could be due to multiple reasons.</p>
+<ul class="simple">
+<li><p>You are using a different domain other than <a class="reference external" href="http://berkeley.edu">berkeley.edu</a> which could have potentially raised this issue. Raise a github issue, so that we can authorize your domain.</p></li>
+<li><p>Large number of your students are trying to use the service resulting in failure of certain nodes. We are trying to scale our instance dynamically</p></li>
+</ul>
 <ul class="simple">
 <li><p>What should I do if I get an “An unknown error occurred while loading this notebook” as part of the datahub service?</p></li>
 </ul>
 <p>Try opening a new terminal from the instance and run the following command,</p>
 <p>rm -f ~/.local/share/jupyter/nbsignatures.db</p>
-<p>If the issue still persists, raise a github issue so that we can take a look at it.</p>
+<p>If the issue still persists, raise a github issue.</p>
 <ul class="simple">
 <li><p>What should I do if there is a package conflict?</p></li>
+</ul>
+<p>Try to move to the previous version of the package to see if the conflict exists. If it still exists, try resolving the dependencies manually by installing the required packages.</p>
+<p>If you get stuck, do reach out to us. We will find a version of the package that works well with other packages in the hub.</p>
+<ul class="simple">
 <li><p>What should I do if my kernel dies?</p></li>
 </ul>
-<p>As a rule of thumb, restart the kernel whenever it dies</p>
+<p>As a rule of thumb, restart the kernel whenever it dies. This should solve a majority of the issues</p>
 <ul class="simple">
 <li><p>What should I do if I am getting RStudio Initialization Error: Error occurred during transmission error.</p></li>
 </ul>
-<p>Please follow the workaround until a fix can be identified and implemented. This can be fixed by renaming or removing ~/.rstudio via the termin
-al. To do so while bypassing the typical rstudio session startup:</p>
+<p>Please follow this workaround until a fix can be identified and implemented. Workaround involves renaming or removing ~/.rstudio via the terminal. To do so while bypassing the typical rstudio session startup:</p>
 <ol class="simple">
 <li><p>Go to this <a class="reference external" href="https://r.datahub.berkeley.edu/user-redirect/tree">link</a></p></li>
 <li><p>Click New-&gt;Terminal</p></li>
@@ -275,7 +283,7 @@ al. To do so while bypassing the typical rstudio session startup:</p>
 </li>
 <li><p>What should I do if I have an issue that has not been documented in the FAQ?</p></li>
 </ul>
-<p>Raise a github <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new/choose">issue</a>for the same! We will keep adding common issues to the FAQ so that you could handle it yourself!</p>
+<p>Raise a github <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new/choose">issue</a>for the same! We will keep adding common issues to this FAQ!</p>
 </div>
 
     <script type="text/x-thebe-config">

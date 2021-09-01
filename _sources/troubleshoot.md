@@ -7,11 +7,15 @@ Are you facing issues with the Datahub and want to do some troubleshooting? If y
 
 * What should I do if my hub is running slow?
 
-Restart your kernel if your hub is running slow
+Try these couple of options and if they don't work then do reach out to us immediately,
 
-Check whether there are lot of open tabs? If yes, close the tabs that are not required
+- Restart your kernel if your hub is running slow
+
+- Check whether there are lot of open tabs? If yes, close the tabs that are not required
 
 * What should I do if my code is running slow?
+
+Your code running slow in general could be attributed to the varied programming practices that would have slowed the operation of the hub. 
 
 Check whether your code does the following, 
 1. You are running an Infinite loop 
@@ -26,17 +30,15 @@ This error could be due to some of our stability improvements.
 
 To start with, Try restarting your server. Wait for sometime to see whether the issue still persists.
 
-If yes, raise a github issue so that we can take a look at it.
+If yes, raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose) so that we can take a look at it.
 
 * What should I do if I get "403 errors: Blocking request from unknown origin" regularly?
 
-It could be due to multiple reasons,
+This error could be due to multiple reasons. 
 
-You are using a different domain other than berkeley.edu which could have potentially raised this issue. 
+- You are using a different domain other than berkeley.edu which could have potentially raised this issue. Raise a github issue, so that we can authorize your domain.
 
-Large number of your students are trying to use the service resulting in failure of certain nodes
-
-If that be the case raise a github issue, so that we can authorize your domain.
+- Large number of your students are trying to use the service resulting in failure of certain nodes. We are trying to scale our instance dynamically
 
 * What should I do if I get an “An unknown error occurred while loading this notebook” as part of the datahub service?
 
@@ -44,25 +46,26 @@ Try opening a new terminal from the instance and run the following command,
 
 rm -f ~/.local/share/jupyter/nbsignatures.db
 
-If the issue still persists, raise a github issue so that we can take a look at it.
+If the issue still persists, raise a github issue.
 
 * What should I do if there is a package conflict?
 
+Try to move to the previous version of the package to see if the conflict exists. If it still exists, try resolving the dependencies manually by installing the required packages. 
+
+If you get stuck, do reach out to us. We will find a version of the package that works well with other packages in the hub.
 
 * What should I do if my kernel dies?
 
-As a rule of thumb, restart the kernel whenever it dies
+As a rule of thumb, restart the kernel whenever it dies. This should solve a majority of the issues
 
 * What should I do if I am getting RStudio Initialization Error: Error occurred during transmission error. 
 
-Please follow the workaround until a fix can be identified and implemented. This can be fixed by renaming or removing ~/.rstudio via the termin
-al. To do so while bypassing the typical rstudio session startup:
+Please follow this workaround until a fix can be identified and implemented. Workaround involves renaming or removing ~/.rstudio via the terminal. To do so while bypassing the typical rstudio session startup:
 
 1. Go to this [link](https://r.datahub.berkeley.edu/user-redirect/tree)
 2. Click New->Terminal
 3. In the terminal, type: mv .rstudio .rstudio.$(date +%s) and press return
 4. Try to launch rstudio as you normally would and it should now work.
-
 
 * What should I do if R Studio times out and kicks me out every 5 minutes or so? 
 
@@ -76,4 +79,4 @@ al. To do so while bypassing the typical rstudio session startup:
 
 * What should I do if I have an issue that has not been documented in the FAQ?
 
-Raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose)for the same! We will keep adding common issues to the FAQ so that you could handle it yourself!
+Raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose)for the same! We will keep adding common issues to this FAQ!
