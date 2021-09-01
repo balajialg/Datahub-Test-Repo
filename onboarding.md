@@ -6,7 +6,7 @@ Are you new to Datahub? Do you want to learn more about the services offered by 
 
 * What are the varied resources that I can review to onboard myself?
 
-If you are new to Datahub and are interested to know more about the configuration used by various Berkeley organizations, you can refer to this [documentation] (https://docs.datahub.berkeley.edu/en/latest/)
+If you are new to Datahub and are interested to know more about the configuration used by various Berkeley organizations, you can refer to this [documentation](https://docs.datahub.berkeley.edu/en/latest/)
 
 If you want to set up a hub infrastructure at your end and are interested to learn more about the technical details behind the set up then use this [documentation](https://zero-to-jupyterhub.readthedocs.io/en/latest/)
 

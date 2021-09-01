@@ -2,9 +2,8 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: FAQ
+root: onboarding
 chapters:
-- file: onboarding
 - file: changerequirements
 - file: admin
 - file: troubleshoot
