@@ -1,4 +1,4 @@
-# Changing existing requirements:
+# Changing existing requirements
 
 ```{note}
 Are you interested to learn more about how to change the default requirements for the Datahub? If yes, read below!

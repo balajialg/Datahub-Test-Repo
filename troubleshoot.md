@@ -1,4 +1,4 @@
-# Troubleshooting issues in the Hub:
+# Troubleshooting issues in the Hub
 
 ```{note}
 Are you facing issues with the Datahub and want to do some troubleshooting? If yes, read below!
@@ -11,13 +11,13 @@ Try these couple of options and if they don't work then do reach out to us immed
 
 - Restart your kernel if your hub is running slow
 
-- Check whether there are lot of open tabs? If yes, close the tabs that are not required
+- Check whether there are lot of open tabs? If yes, close the tabs that are not required.
 
 * What should I do if my code is running slow?
 
 Your code running slow in general could be attributed to the varied programming practices that would have slowed the operation of the hub. 
 
-Check whether your code does the following, 
+Check whether your code does any of the following, 
 1. You are running an Infinite loop 
 2. Your computation/calculation is big, 
 3. You are joining tables that are too large
