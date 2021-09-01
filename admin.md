@@ -2,6 +2,7 @@
 
 ```{note}
 Are you curious about the admin privileges in Datahub and are interested to learn more about it? If yes, read below!
+
 ```
 
 * What does admin access in the hub mean? 
@@ -13,7 +14,7 @@ Admin access provides following features,
 2. You can access the student server having issues and debug their instance
 
 Check this image to know where to find the admin option
-```{figure} ../../admin.png
+```{figure} /Admin.png
 :height: 150px
 :name: Datahub Admin
 

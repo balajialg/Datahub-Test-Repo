@@ -1,7 +1,8 @@
 # Onboarding new users to the Hub:
 
-```{mydirectivename}
+```{note}
 Are you new to Datahub? Do you want to learn more about the services offered by the hub? If yes, Do refer below,
+
 ```
 
 * What are the varied resources that I can review to onboard myself?
@@ -12,7 +13,7 @@ If you want to set up a hub infrastructure at your end and are interested to lea
 
 * What programming languages are supported by the hub?
 
-Datahub primarily supports three languages - Python, R and Julia. However, we can also support other languages on a case to case basis. Please do raise an github issue or send us an email to xxx to share your exact requirement.
+Datahub primarily supports three languages - Python, R and Julia. However, we can also support other languages on a case to case basis. Please do raise an github issue or send us an email to ds-infrastructure@lists.berkeley.edu to share your exact requirement.
 
 * How many hubs across the campus exist? Which courses use them extensively?
 
@@ -48,16 +49,16 @@ We will resolve queries related to package installation and admin requests betwe
 
 There are multiple templates available which are summarized below,
 
-i) Issue Tracker: If you found a bug in the workflow and want to raise an issue for the same, then please do use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml) to raise an issue
+i) **Issue Tracker:** If you found a bug in the workflow and want to raise an issue for the same, then please do use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml) to raise an issue
 
 
-ii) New Enhancement: If you found a new feature/documentation that would help you with the existing workflow then please do use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=type%3A+enhancement&template=featurerequest.md) to raise an issue
+ii) **New Enhancement:** If you found a new feature/documentation that would help you with the existing workflow then please do use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=type%3A+enhancement&template=featurerequest.md) to raise an issue
 
 
-iii) Package Addition/Change request: If you want to install new packages in R/Python/Julia as part of your hub then please do raise a request using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=higher-resources.md&title=Request+more+RAM+for+class+X)
+iii) **Package Addition/Change request:** If you want to install new packages in R/Python/Julia as part of your hub then please do raise a request using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=higher-resources.md&title=Request+more+RAM+for+class+X)
 
 
-iv) Request for RAM: If you want to increase/decrease RAM for your specific hub then please do use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y) to request
+iv) **Request for RAM:** If you want to increase/decrease RAM for your specific hub then please do use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y) to request
 
 * As an instructor, What is the process to create a hub for teaching a course?
 

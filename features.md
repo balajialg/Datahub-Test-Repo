@@ -1,7 +1,8 @@
 # Requesting new features in Datahub
 
-```{mydirectivename}
+```{note}
 Do you have suggestions on new ways to improve our offering? If yes, read below!
+
 ```
 
 
