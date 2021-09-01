@@ -3,43 +3,31 @@
 ```{tabbed} Onboarding new users to the Hub:
 1. What are the varied resources that I can review to onboard myself?
 
-If you are new to Datahub and are interested to know more about the configuration used by various Berkeley organizations, you can refer to this documentation available https://docs.datahub.berkeley.edu/en/latest/
-
-If you want to set up a hub infrastructure at your end and are interested to learn more about the technical details behind the set up then use this link https://zero-to-jupyterhub.readthedocs.io/en/latest/
+If you are new to Datahub and are interested to know more about the technical features of Datahub, you can refer to the documentation available https://docs.datahub.berkeley.edu/en/latest/
 
 2. What programming languages are supported by the hub?
 
-Datahub primarily supports three languages - Python, R and Julia. However, we can also support other languages on a case to case basis. Please do raise an github issue or send us an email to xxx to share your exact requirement.
+Datahub primarily supports three languages - Python, R and Julia. However, we also can support other languages as and when required. Do raise an github issue or send us an email to xxx to share your exact requirement.
 
 3. How many hubs across the campus exist? Which courses use them extensively?
 
-Currently, We have 15+ hubs that caters to the diverse needs of our campus audience. This includes Datahub which is has the maximum number of courses/users. In addition, We have Data 8 hub, Data 100 hub, Biology hub etc.. serving the needs of teaching team and students enrolled as part of Data 8, Data 100 and Biology courses respectively.
-
-You can learn more about the hubs deployed through this link here (https://docs.datahub.berkeley.edu/en/latest/users/hubs.html)
+Currently, We have 15+ hubs that caters to the diverse needs of our campus audience. This includes Datahub which is has the maximum number of courses using it for their specific needs. We have Data 8, Data 100 hub, Biology hub etc.. serving teaching team and students enrolled as part of Data 8, Data 100 and Biology department respectively.
 
 4. What is the default Memory/CPU requirement for every hub?
 
 By default our hubs offer 1 GB RAM. However, if your class/research requires more complex computation then please do reach out to us.
 
-5. What are the different services offered as part of the Datahub?
-
-You can learn more about the varied services through the documentation here (https://docs.datahub.berkeley.edu/en/latest/users/services.html)
+5. What criteria determine the memory allocated to each user in a specific hub?
 
 6. What are the packages pre-installed for every hub?
 
-Package requirement varies across every hub. We ensure that the basic packages such as Numpy, pandas, scikit-learn etc.. are installed across all the hubs
-
 7. What is the process to raise Github issues? How can I track the raised issues?
 
-If you want to raise a bug currently, you can use this link (https://github.com/berkeley-dsep-infra/datahub/issues/new/choose)to raise the issues
-
-You can also use post messages to our Piazza channel to raise further queries 
+If you want to raise a bug currently, you can use this link (https://github.com/berkeley-dsep-infra/datahub/issues/new/choose). 
 
 8. When do I receive a response when an issue gets raised?
 
-We currently don't have any kind of SLA with regards to requests from users. However, as a rule of thumb we try to respond to your queries within 1-2 days tie
-
-We will resolve queries related to package installation and admin requests between 1-3 days time
+We currently don't have any kind of SLA but as a rule of thumb we try to respond to your queries within 1-2 days tie
 
 9. Are there existing templates for submitting requests to the infrastructure team?
 
@@ -51,7 +39,7 @@ iv) Request for RAM: If you want to increase/decrease RAM for your specific hub 
 
 10. As an instructor, What is the process to create a hub for teaching a course?
 
-We would like to know the exact use case for creating a hub. We generally recommend using the Datahub for teaching purposes if it is a small class size or the computational requirements for your courses/research can be completed with .
+We would like to know the exact use case for creating a hub. We generally recommend using the Datahub for teaching purposes if it is a small class size or the computational requirements for your courses/research is not complex.
 ```
 
 ```{tabbed} Changing existing requirements:
@@ -79,13 +67,11 @@ Send us an email to this email id with the specific usecase you have in mind.
 6. I am going to run a large dataset for my class. What are the steps I can take to ensure that the hub has the required compute power?
 
 As a rule of thumb, we would recommend following steps.
-
-
 If these steps are not helpful then we would recommend reaching out to us separaetly
 
 7. What should I do If I want to switch from an existing hub to an R hub?
 
-You can directly use the R Datahub dedicated to serve courses using R. If you have specific requirements then please do reach out to us through email
+Send us an email here
 
 8. As an instructor, Can I request a custom image with different installation requirements?
 
@@ -119,10 +105,6 @@ Attach screenshots to each required step
 
 ```{tabbed} Troubleshooting issues in the Hub:
 1. What should I do if my hub is running slow?
-
-Restart your kernel if your hub is running slow
-
-Check whether there are lot of open tabs? If yes, close the tabs that are not required
 
 2. What should I do if my code is running slow?
 
@@ -161,11 +143,8 @@ If the issue still persists, raise a github issue so that we can take a look at 
 
 6. What should I do if there is a package conflict?
 
-
-
 7. What should I do if my kernel dies?
 
-As a rule of thumb, restart the kernel whenever it dies
 
 8. What should I do if I am getting RStudio Initialization Error: Error occurred during transmission error. 
 
@@ -198,19 +177,17 @@ Raise a github issue for the same! We will keep adding common issues to the FAQ 
 
 Raise a new github issue using this link https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=type%3A+enhancement&template=featurerequest.md
 
-Follow the steps outlined as part of the template to request for this enhancement
+Follow the steps outlined in the document to request for this enhancement
 
 2. Where will I get updates/notifications about the Datahub feature releases?
 
-We are trying to build a cadence by which send public announcements about feature releases or upgrades going forward. Look forward to emails from datahub-announce going forward!
- 
+You will receive announcements over 
+
 3. How can I collaborate with other users on a notebook at the same time?
 
-Currently, We don't provide options to collaborate with other users through Datahub. However, we are working towards integrating collaborative computing experience through Jupyterhub's Retrolab functionality
+Retrolab is a feature we are trying to incorporate 
 
 4. How can I contribute to the open source community building this tool?
-
-Reach out to us if you want to contribute to this tool. You can read this documentation to get a sense of how to contribute to Datahub specifically (https://docs.datahub.berkeley.edu/en/latest/admins/pre-reqs.html)
 
 ```
 
