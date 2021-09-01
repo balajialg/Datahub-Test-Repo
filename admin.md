@@ -34,8 +34,8 @@ If you have have admin access and want to know how to access admin portal then u
 - Click the admin option from the top bar
 
 ```{figure} images/adminaccess.PNG
-:width: auto
-:height: auto
+:width: 100%
+:height: 25%
 :name: Datahub Admin snapshot
 
 Here is where you can find admin option!
