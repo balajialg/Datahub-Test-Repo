@@ -15,8 +15,8 @@ Admin access provides necessary access to successfully operate the hub. Followin
 
 Check this image to know your privileges for admin option
 ```{figure} images/admin.png
-:width: 200px
-:height: 400px
+scale: 100%
+align: center
 :name: Datahub Admin
 
 Here is how admin dashboard looks like!
@@ -34,8 +34,8 @@ If you have have admin access and want to know how to access admin portal then u
 - Click the admin option from the top bar
 
 ```{figure} images/adminaccess.PNG
-:width: 200px
-:height: 400px
+:width: auto
+:height: auto
 :name: Datahub Admin snapshot
 
 Here is where you can find admin option!
