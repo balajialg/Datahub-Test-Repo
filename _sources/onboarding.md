@@ -63,4 +63,3 @@ iv) **Request for RAM:** If you want to increase/decrease RAM for your specific 
 * As an instructor, What is the process to create a hub for teaching a course?
 
 We would like to know the exact use case for creating a hub. We generally recommend using the Datahub for teaching purposes if it is a small class size or the computational requirements for your courses/research can be completed with.
-```
