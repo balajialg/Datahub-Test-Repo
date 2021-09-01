@@ -2,6 +2,7 @@
 
 ```{note}
 Are you facing issues with the Datahub and want to do some troubleshooting? If yes, read below!
+
 ```
 
 * What should I do if my hub is running slow?
@@ -46,7 +47,6 @@ rm -f ~/.local/share/jupyter/nbsignatures.db
 If the issue still persists, raise a github issue so that we can take a look at it.
 
 * What should I do if there is a package conflict?
-
 
 
 * What should I do if my kernel dies?

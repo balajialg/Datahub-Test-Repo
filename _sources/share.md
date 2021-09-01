@@ -1,9 +1,9 @@
 # Sharing information about the Hub:
 
-```{mydirectivename}
+```{note}
 Interested to be our evangelist? See below,
-```
 
+```
 
 * How do I spread the word about the hub?
 

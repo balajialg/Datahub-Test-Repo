@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Frequently Asked Questions &#8212; My sample book</title>
+    <title>Frequently Asked Questions &#8212; FAQs for Teaching Staff</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -51,7 +51,6 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Welcome to your Jupyter Book" href="FAQ/intro.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -73,7 +72,7 @@
       <img src="_static/logo.png" class="logo" alt="logo">
       
       
-      <h1 class="site-logo" id="site-title">My sample book</h1>
+      <h1 class="site-logo" id="site-title">FAQs for Teaching Staff</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
@@ -82,16 +81,36 @@
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
         <ul class="nav bd-sidenav">
- <li class="toctree-l1 current">
-  <a class="reference internal" href="#">
-   Frequently Asked Questions
+ <li class="toctree-l1">
+  <a class="reference internal" href="onboarding.html">
+   Onboarding new users to the Hub:
   </a>
  </li>
 </ul>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="FAQ/intro.html">
-   Welcome to your Jupyter Book
+  <a class="reference internal" href="changerequirements.html">
+   Changing existing requirements:
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="admin.html">
+   Admin Privileges:
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="troubleshoot.html">
+   Troubleshooting issues in the Hub:
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="features.html">
+   Requesting new features in Datahub
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="share.html">
+   Sharing information about the Hub:
   </a>
  </li>
 </ul>
@@ -187,35 +206,45 @@
   <div class="section" id="frequently-asked-questions">
 <h1>Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Permalink to this headline">¶</a></h1>
 <div class="tabbed-set docutils">
-<input checked="checked" id="66377e99-cc94-4f3f-87b2-aec14d3c4486" name="b9129113-d6c4-4777-b7e4-f6795252bb7b" type="radio">
-</input><label class="tabbed-label" for="66377e99-cc94-4f3f-87b2-aec14d3c4486">
+<input checked="checked" id="b12485c5-1292-4e96-92f7-083fd37ed54e" name="9abc00d7-d142-4518-805c-0ae7f57ee7e5" type="radio">
+</input><label class="tabbed-label" for="b12485c5-1292-4e96-92f7-083fd37ed54e">
 Onboarding new users to the Hub:</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>What are the varied resources that I can review to onboard myself?</p></li>
 </ol>
-<p>If you are new to Datahub and are interested to know more about the technical features of Datahub, you can refer to the documentation available <a class="reference external" href="https://docs.datahub.berkeley.edu/en/latest/">https://docs.datahub.berkeley.edu/en/latest/</a></p>
+<p>If you are new to Datahub and are interested to know more about the configuration used by various Berkeley organizations, you can refer to this documentation available <a class="reference external" href="https://docs.datahub.berkeley.edu/en/latest/">https://docs.datahub.berkeley.edu/en/latest/</a></p>
+<p>If you want to set up a hub infrastructure at your end and are interested to learn more about the technical details behind the set up then use this link <a class="reference external" href="https://zero-to-jupyterhub.readthedocs.io/en/latest/">https://zero-to-jupyterhub.readthedocs.io/en/latest/</a></p>
 <ol class="simple">
 <li><p>What programming languages are supported by the hub?</p></li>
 </ol>
-<p>Datahub primarily supports three languages - Python, R and Julia. However, we also can support other languages as and when required. Do raise an github issue or send us an email to xxx to share your exact requirement.</p>
+<p>Datahub primarily supports three languages - Python, R and Julia. However, we can also support other languages on a case to case basis. Please do raise an github issue or send us an email to xxx to share your exact requirement.</p>
 <ol class="simple">
 <li><p>How many hubs across the campus exist? Which courses use them extensively?</p></li>
 </ol>
-<p>Currently, We have 15+ hubs that caters to the diverse needs of our campus audience. This includes Datahub which is has the maximum number of courses using it for their specific needs. We have Data 8, Data 100 hub, Biology hub etc.. serving teaching team and students enrolled as part of Data 8, Data 100 and Biology department respectively.</p>
+<p>Currently, We have 15+ hubs that caters to the diverse needs of our campus audience. This includes Datahub which is has the maximum number of courses/users. In addition, We have Data 8 hub, Data 100 hub, Biology hub etc.. serving the needs of teaching team and students enrolled as part of Data 8, Data 100 and Biology courses respectively.</p>
+<p>You can learn more about the hubs deployed through this link here (<a class="reference external" href="https://docs.datahub.berkeley.edu/en/latest/users/hubs.html">https://docs.datahub.berkeley.edu/en/latest/users/hubs.html</a>)</p>
 <ol class="simple">
 <li><p>What is the default Memory/CPU requirement for every hub?</p></li>
 </ol>
 <p>By default our hubs offer 1 GB RAM. However, if your class/research requires more complex computation then please do reach out to us.</p>
 <ol class="simple">
-<li><p>What criteria determine the memory allocated to each user in a specific hub?</p></li>
+<li><p>What are the different services offered as part of the Datahub?</p></li>
+</ol>
+<p>You can learn more about the varied services through the documentation here (<a class="reference external" href="https://docs.datahub.berkeley.edu/en/latest/users/services.html">https://docs.datahub.berkeley.edu/en/latest/users/services.html</a>)</p>
+<ol class="simple">
 <li><p>What are the packages pre-installed for every hub?</p></li>
+</ol>
+<p>Package requirement varies across every hub. We ensure that the basic packages such as Numpy, pandas, scikit-learn etc.. are installed across all the hubs</p>
+<ol class="simple">
 <li><p>What is the process to raise Github issues? How can I track the raised issues?</p></li>
 </ol>
-<p>If you want to raise a bug currently, you can use this link (<a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new/choose">https://github.com/berkeley-dsep-infra/datahub/issues/new/choose</a>).</p>
+<p>If you want to raise a bug currently, you can use this link (<a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new/choose">https://github.com/berkeley-dsep-infra/datahub/issues/new/choose</a>)to raise the issues</p>
+<p>You can also use post messages to our Piazza channel to raise further queries</p>
 <ol class="simple">
 <li><p>When do I receive a response when an issue gets raised?</p></li>
 </ol>
-<p>We currently don’t have any kind of SLA but as a rule of thumb we try to respond to your queries within 1-2 days tie</p>
+<p>We currently don’t have any kind of SLA with regards to requests from users. However, as a rule of thumb we try to respond to your queries within 1-2 days tie</p>
+<p>We will resolve queries related to package installation and admin requests between 1-3 days time</p>
 <ol class="simple">
 <li><p>Are there existing templates for submitting requests to the infrastructure team?</p></li>
 </ol>
@@ -227,10 +256,10 @@ iv) Request for RAM: If you want to increase/decrease RAM for your specific hub 
 <ol class="simple">
 <li><p>As an instructor, What is the process to create a hub for teaching a course?</p></li>
 </ol>
-<p>We would like to know the exact use case for creating a hub. We generally recommend using the Datahub for teaching purposes if it is a small class size or the computational requirements for your courses/research is not complex.</p>
+<p>We would like to know the exact use case for creating a hub. We generally recommend using the Datahub for teaching purposes if it is a small class size or the computational requirements for your courses/research can be completed with .</p>
 </div>
-<input id="a9810424-b811-4b97-a73d-1fa33f51076d" name="b9129113-d6c4-4777-b7e4-f6795252bb7b" type="radio">
-</input><label class="tabbed-label" for="a9810424-b811-4b97-a73d-1fa33f51076d">
+<input id="e38a6c73-82d6-4f79-a204-e616aa0370dd" name="9abc00d7-d142-4518-805c-0ae7f57ee7e5" type="radio">
+</input><label class="tabbed-label" for="e38a6c73-82d6-4f79-a204-e616aa0370dd">
 Changing existing requirements:</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>What should I do if I want to increase the RAM size in my hub?</p></li>
@@ -256,19 +285,19 @@ We would like to know i) your usecase ii) memory requirement iii) CPU requiremen
 <ol class="simple">
 <li><p>I am going to run a large dataset for my class. What are the steps I can take to ensure that the hub has the required compute power?</p></li>
 </ol>
-<p>As a rule of thumb, we would recommend following steps.
-If these steps are not helpful then we would recommend reaching out to us separaetly</p>
+<p>As a rule of thumb, we would recommend following steps.</p>
+<p>If these steps are not helpful then we would recommend reaching out to us separaetly</p>
 <ol class="simple">
 <li><p>What should I do If I want to switch from an existing hub to an R hub?</p></li>
 </ol>
-<p>Send us an email here</p>
+<p>You can directly use the R Datahub dedicated to serve courses using R. If you have specific requirements then please do reach out to us through email</p>
 <ol class="simple">
 <li><p>As an instructor, Can I request a custom image with different installation requirements?</p></li>
 </ol>
 <p>We need to know your usecase better</p>
 </div>
-<input id="b51f803e-a8a5-44b1-b367-23ab3b3f1f43" name="b9129113-d6c4-4777-b7e4-f6795252bb7b" type="radio">
-</input><label class="tabbed-label" for="b51f803e-a8a5-44b1-b367-23ab3b3f1f43">
+<input id="f5995257-96a4-4358-b551-7ca027b57141" name="9abc00d7-d142-4518-805c-0ae7f57ee7e5" type="radio">
+</input><label class="tabbed-label" for="f5995257-96a4-4358-b551-7ca027b57141">
 Admin Privileges:</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>What does admin access in the hub mean?</p></li>
@@ -290,11 +319,15 @@ Click stop server option</p></li>
 </ol>
 <p>Attach screenshots to each required step</p>
 </div>
-<input id="8dc3a5ad-70fe-4289-a475-8c1de98aa8cd" name="b9129113-d6c4-4777-b7e4-f6795252bb7b" type="radio">
-</input><label class="tabbed-label" for="8dc3a5ad-70fe-4289-a475-8c1de98aa8cd">
+<input id="9f2223d8-a0f7-4ed2-af29-2042161e491f" name="9abc00d7-d142-4518-805c-0ae7f57ee7e5" type="radio">
+</input><label class="tabbed-label" for="9f2223d8-a0f7-4ed2-af29-2042161e491f">
 Troubleshooting issues in the Hub:</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>What should I do if my hub is running slow?</p></li>
+</ol>
+<p>Restart your kernel if your hub is running slow</p>
+<p>Check whether there are lot of open tabs? If yes, close the tabs that are not required</p>
+<ol class="simple">
 <li><p>What should I do if my code is running slow?</p></li>
 </ol>
 <p>Check whether your code does the following,</p>
@@ -325,6 +358,9 @@ Troubleshooting issues in the Hub:</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>What should I do if there is a package conflict?</p></li>
 <li><p>What should I do if my kernel dies?</p></li>
+</ol>
+<p>As a rule of thumb, restart the kernel whenever it dies</p>
+<ol class="simple">
 <li><p>What should I do if I am getting RStudio Initialization Error: Error occurred during transmission error.</p></li>
 </ol>
 <p>Please follow the workaround until a fix can be identified and implemented. This can be fixed by renaming or removing ~/.rstudio via the termin
@@ -348,36 +384,35 @@ al. To do so while bypassing the typical rstudio session startup:</p>
 </ol>
 <p>Raise a github issue for the same! We will keep adding common issues to the FAQ so that you could handle it yourself!</p>
 </div>
-<input id="c0ab4b89-e516-4cc7-8764-112731bd5244" name="b9129113-d6c4-4777-b7e4-f6795252bb7b" type="radio">
-</input><label class="tabbed-label" for="c0ab4b89-e516-4cc7-8764-112731bd5244">
+<input id="47c476d0-dcc0-4b47-aa31-f32a047e41fe" name="9abc00d7-d142-4518-805c-0ae7f57ee7e5" type="radio">
+</input><label class="tabbed-label" for="47c476d0-dcc0-4b47-aa31-f32a047e41fe">
 Building new features in the Hub:</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>How do I raise a new requirement for the hub?</p></li>
 </ol>
 <p>Raise a new github issue using this link <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=type%3A+enhancement&amp;template=featurerequest.md">https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=type:+enhancement&amp;template=featurerequest.md</a></p>
-<p>Follow the steps outlined in the document to request for this enhancement</p>
+<p>Follow the steps outlined as part of the template to request for this enhancement</p>
 <ol class="simple">
 <li><p>Where will I get updates/notifications about the Datahub feature releases?</p></li>
 </ol>
-<p>You will receive announcements over</p>
+<p>We are trying to build a cadence by which send public announcements about feature releases or upgrades going forward. Look forward to emails from datahub-announce going forward!</p>
 <ol class="simple">
 <li><p>How can I collaborate with other users on a notebook at the same time?</p></li>
 </ol>
-<p>Retrolab is a feature we are trying to incorporate</p>
+<p>Currently, We don’t provide options to collaborate with other users through Datahub. However, we are working towards integrating collaborative computing experience through Jupyterhub’s Retrolab functionality</p>
 <ol class="simple">
 <li><p>How can I contribute to the open source community building this tool?</p></li>
 </ol>
+<p>Reach out to us if you want to contribute to this tool. You can read this documentation to get a sense of how to contribute to Datahub specifically (<a class="reference external" href="https://docs.datahub.berkeley.edu/en/latest/admins/pre-reqs.html">https://docs.datahub.berkeley.edu/en/latest/admins/pre-reqs.html</a>)</p>
 </div>
-<input id="5e8f52f6-504f-4669-8566-82e7972f83c1" name="b9129113-d6c4-4777-b7e4-f6795252bb7b" type="radio">
-</input><label class="tabbed-label" for="5e8f52f6-504f-4669-8566-82e7972f83c1">
+<input id="cadad2d2-01b2-4da4-87cc-aa1ff930e6de" name="9abc00d7-d142-4518-805c-0ae7f57ee7e5" type="radio">
+</input><label class="tabbed-label" for="cadad2d2-01b2-4da4-87cc-aa1ff930e6de">
 Sharing information about the Hub:</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>How do I spread the word about the hub?</p></li>
 <li><p>What are the collaterals that I can use to share the information about the hub?</p></li>
 </ol>
 </div>
-</div>
-<div class="toctree-wrapper compound">
 </div>
 </div>
 
@@ -410,15 +445,6 @@ Sharing information about the Hub:</label><div class="tabbed-content docutils">
 
 <div class='prev-next-bottom'>
     
-     <div id="next">
-        <a class="right-next" href="FAQ/intro.html" title="next page">
-            <div class="prevnext-info">
-                <p class="prevnext-label">next</p>
-                <p class="prevnext-title">Welcome to your Jupyter Book</p>
-            </div>
-            <i class="prevnext-label fas fa-angle-right"></i>
-        </a>
-     </div>
 
 </div>
         
