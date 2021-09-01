@@ -10,6 +10,14 @@ Admin access provides following features,
 1. You can start and stop the server for students part of your dedicated hub
 2. You can access the student server having issues and debug their instance
 
+Check this image to know where to find the admin option
+```{figure} ../admin.png
+:height: 150px
+:name: Datahub Admin
+
+Here is where you can find admin option!
+```
+
 2. How do I get access to the admin view? 
 We generally recommend the teaching team have access to the admin view. If you require admin access, please share the email id of users who require admin access and share it with (support email id). 
 
