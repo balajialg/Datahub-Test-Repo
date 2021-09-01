@@ -216,14 +216,14 @@
 <p class="admonition-title">Note</p>
 <p>Are you facing issues with the Datahub and want to do some troubleshooting? If yes, read below!</p>
 </div>
-<ol class="simple">
+<ul class="simple">
 <li><p>What should I do if my hub is running slow?</p></li>
-</ol>
+</ul>
 <p>Restart your kernel if your hub is running slow</p>
 <p>Check whether there are lot of open tabs? If yes, close the tabs that are not required</p>
-<ol class="simple">
+<ul class="simple">
 <li><p>What should I do if my code is running slow?</p></li>
-</ol>
+</ul>
 <p>Check whether your code does the following,</p>
 <ol class="simple">
 <li><p>You are running an Infinite loop</p></li>
@@ -231,39 +231,43 @@
 <li><p>You are joining tables that are too large</p></li>
 <li><p>You have too many notebooks open at the same time</p></li>
 <li><p>You are trying to show a table which is too large and as a result are crashing the browser</p></li>
-<li><p>What should I do if I get “503 service unavailable error” regularly?</p></li>
 </ol>
+<ul class="simple">
+<li><p>What should I do if I get “503 service unavailable error” regularly?</p></li>
+</ul>
 <p>This error could be due to some of our stability improvements.</p>
 <p>To start with, Try restarting your server. Wait for sometime to see whether the issue still persists.</p>
 <p>If yes, raise a github issue so that we can take a look at it.</p>
-<ol class="simple">
+<ul class="simple">
 <li><p>What should I do if I get “403 errors: Blocking request from unknown origin” regularly?</p></li>
-</ol>
+</ul>
 <p>It could be due to multiple reasons,</p>
 <p>You are using a different domain other than <a class="reference external" href="http://berkeley.edu">berkeley.edu</a> which could have potentially raised this issue.</p>
 <p>Large number of your students are trying to use the service resulting in failure of certain nodes</p>
 <p>If that be the case raise a github issue, so that we can authorize your domain.</p>
-<ol class="simple">
+<ul class="simple">
 <li><p>What should I do if I get an “An unknown error occurred while loading this notebook” as part of the datahub service?</p></li>
-</ol>
+</ul>
 <p>Try opening a new terminal from the instance and run the following command,</p>
 <p>rm -f ~/.local/share/jupyter/nbsignatures.db</p>
 <p>If the issue still persists, raise a github issue so that we can take a look at it.</p>
-<ol class="simple">
+<ul class="simple">
 <li><p>What should I do if there is a package conflict?</p></li>
 <li><p>What should I do if my kernel dies?</p></li>
-</ol>
+</ul>
 <p>As a rule of thumb, restart the kernel whenever it dies</p>
-<ol class="simple">
+<ul class="simple">
 <li><p>What should I do if I am getting RStudio Initialization Error: Error occurred during transmission error.</p></li>
-</ol>
+</ul>
 <p>Please follow the workaround until a fix can be identified and implemented. This can be fixed by renaming or removing ~/.rstudio via the termin
 al. To do so while bypassing the typical rstudio session startup:</p>
 <ol class="simple">
-<li><p>Go to this [link] (<a class="reference external" href="https://r.datahub.berkeley.edu/user-redirect/tree">https://r.datahub.berkeley.edu/user-redirect/tree</a>)</p></li>
+<li><p>Go to this <a class="reference external" href="https://r.datahub.berkeley.edu/user-redirect/tree">link</a></p></li>
 <li><p>Click New-&gt;Terminal</p></li>
 <li><p>In the terminal, type: mv .rstudio .rstudio.$(date +%s) and press return</p></li>
 <li><p>Try to launch rstudio as you normally would and it should now work.</p></li>
+</ol>
+<ul class="simple">
 <li><p>What should I do if R Studio times out and kicks me out every 5 minutes or so?</p></li>
 <li><p>What should I do if I get an errors like these below,</p>
 <ol class="simple">
@@ -275,8 +279,8 @@ al. To do so while bypassing the typical rstudio session startup:</p>
 </ol>
 </li>
 <li><p>What should I do if I have an issue that has not been documented in the FAQ?</p></li>
-</ol>
-<p>Raise a github [issue] (<a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new/choose">https://github.com/berkeley-dsep-infra/datahub/issues/new/choose</a>)for the same! We will keep adding common issues to the FAQ so that you could handle it yourself!</p>
+</ul>
+<p>Raise a github <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new/choose">issue</a>for the same! We will keep adding common issues to the FAQ so that you could handle it yourself!</p>
 </div>
 
     <script type="text/x-thebe-config">
