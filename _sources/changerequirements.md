@@ -1,16 +1,21 @@
 # Changing existing requirements:
 
+```{note}
+Are you interested to learn more about how to change the default requirements for the Datahub? If yes, read below!
+
+```
+
 1. What should I do if I want to increase the RAM size in my hub?
 
-Raise an issue using the template here!
+Raise an issue using the [template] (https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=higher-resources.md&title=Request+more+RAM+for+class+X)!
 
 2. What should I do if I need more CPU power as part of my hub?
 
-Raise an issue using the template here!
+Raise an issue using the [template] ()!
 
 3. What should I do if I want to install more packages? 
 
-Raise an issue using the template here!
+Raise an issue using the [template] (https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y)!
 
 4. As an instructor, What should I do if I want to conduct a workshop? Are there any existing hubs that I could repurpose?
 

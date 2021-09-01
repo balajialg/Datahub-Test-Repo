@@ -1,5 +1,9 @@
 # Troubleshooting issues in the Hub:
 
+```{note}
+Are you facing issues with the Datahub and want to do some troubleshooting? If yes, read below!
+```
+
 1. What should I do if my hub is running slow?
 
 Restart your kernel if your hub is running slow
@@ -54,7 +58,7 @@ As a rule of thumb, restart the kernel whenever it dies
 Please follow the workaround until a fix can be identified and implemented. This can be fixed by renaming or removing ~/.rstudio via the termin
 al. To do so while bypassing the typical rstudio session startup:
 
-1. Go to https://r.datahub.berkeley.edu/user-redirect/tree
+1. Go to this [link] (https://r.datahub.berkeley.edu/user-redirect/tree)
 2. Click New->Terminal
 3. In the terminal, type: mv .rstudio .rstudio.$(date +%s) and press return
 4. Try to launch rstudio as you normally would and it should now work.
@@ -71,4 +75,4 @@ al. To do so while bypassing the typical rstudio session startup:
 	5. “[Normal] Pulling image” 
 11. What should I do if I have an issue that has not been documented in the FAQ?
 
-Raise a github issue for the same! We will keep adding common issues to the FAQ so that you could handle it yourself!
+Raise a github [issue] (https://github.com/berkeley-dsep-infra/datahub/issues/new/choose)for the same! We will keep adding common issues to the FAQ so that you could handle it yourself!
