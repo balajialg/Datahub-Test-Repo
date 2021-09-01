@@ -47,13 +47,16 @@ We will resolve queries related to package installation and admin requests betwe
 * Are there existing templates for submitting requests to the infrastructure team?
 
 There are multiple templates available which are summarized below,
+
 i) Issue Tracker: If you found a bug in the workflow and want to raise an issue for the same, then please do use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml) to raise an issue
 
----
-ii) New Enhancement: If you found a new feature/documentation that would help you with the existing workflow then please do use this [template] (https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=type%3A+enhancement&template=featurerequest.md) to raise an issue
----
-iii) Package Addition/Change request: If you want to install new packages in R/Python/Julia as part of your hub then please do raise a request using this [template] (https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=higher-resources.md&title=Request+more+RAM+for+class+X)
----
+
+ii) New Enhancement: If you found a new feature/documentation that would help you with the existing workflow then please do use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=type%3A+enhancement&template=featurerequest.md) to raise an issue
+
+
+iii) Package Addition/Change request: If you want to install new packages in R/Python/Julia as part of your hub then please do raise a request using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=higher-resources.md&title=Request+more+RAM+for+class+X)
+
+
 iv) Request for RAM: If you want to increase/decrease RAM for your specific hub then please do use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y) to request
 
 * As an instructor, What is the process to create a hub for teaching a course?
