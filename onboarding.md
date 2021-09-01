@@ -1,7 +1,7 @@
 # Onboarding new users to the Hub:
 
 ```{note}
-Are you new to Datahub? Do you want to learn more about the services offered by the hub? If yes, Do refer below,
+Are you new to Datahub? Do you want to learn more about the services offered by the hub? If yes, Do refer below!
 
 ```
 

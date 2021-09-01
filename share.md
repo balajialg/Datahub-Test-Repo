@@ -1,7 +1,7 @@
 # Sharing information about the Hub:
 
 ```{note}
-Interested to be our evangelist? See below,
+Interested to be our evangelist? See below!
 
 ```
 
