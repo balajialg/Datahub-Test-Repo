@@ -1,4 +1,4 @@
-# Admin Privileges:
+# Admin Privileges
 
 ```{note}
 Are you curious about the admin privileges in Datahub and are interested to learn more about it? If yes, read below!
