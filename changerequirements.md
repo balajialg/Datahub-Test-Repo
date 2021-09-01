@@ -7,11 +7,11 @@ Are you interested to learn more about how to change the default requirements fo
 
 * What should I do if I want to increase the RAM size in my hub?
 
-Raise an issue using the [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=higher-resources.md&title=Request+more+RAM+for+class+X)! Please do let us know the reasons why you want to make this upgrade.
+Raise an issue using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=higher-resources.md&title=Request+more+RAM+for+class+X)! Please do let us know the reasons why you want to make this upgrade.
 
 * What should I do if I need more CPU power as part of my hub?
 
-Raise an issue using the [template]()! Please do let us know the reasons why you want to make this upgrade.
+Raise an issue using this[template](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose)! Please do let us know the reasons why you want to make this upgrade.
 
 * What should I do if I want to install more packages? 
 
@@ -35,3 +35,4 @@ You can directly use the R Datahub dedicated to serve courses using R. If you ha
 
 * As an instructor, Can I request a custom image with different installation requirements?
 
+Yes, you can. Please do send an email to Eric/Balaji with your specific usecase.
