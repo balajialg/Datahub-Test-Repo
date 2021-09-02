@@ -7,7 +7,7 @@ Are you facing issues with the Datahub and want to do some troubleshooting? If y
 
 **What should I do if my hub is running slow?**
 
-Try these couple of options and if they don't work then do reach out to us immediately,
+Try these options and reach out to us if they do not seem to work,
 
 - Restart your kernel if your hub is running slow
 
@@ -26,11 +26,7 @@ Check whether your code does any of the following,
 
 **What should I do if I get "503 service unavailable error" regularly?**
 
-This error could be due to some of our stability improvements. 
-
-To start with, Try restarting your server. Wait for sometime to see whether the issue still persists.
-
-If yes, raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose) so that we can take a look at it.
+This error could be due to some of our stability improvements. To start with, Try restarting your server. Wait for sometime to see whether the issue still persists. If yes, raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose) so that we can take a look at it.
 
 **What should I do if I get "403 errors: Blocking request from unknown origin" regularly?**
 
@@ -50,9 +46,7 @@ If the issue still persists, raise a github issue.
 
 **What should I do if there is a package conflict?**
 
-Try to move to the previous version of the package to see if the conflict exists. If it still exists, try resolving the dependencies manually by installing the required packages. 
-
-If you get stuck, do reach out to us. We will find a version of the package that works well with other packages in the hub.
+Try to move to the previous version of the package to see if the conflict exists. If it still exists, try resolving the dependencies manually by installing the required packages. If you get stuck, do reach out to us. We will find a version of the package that works well with other packages in the hub.
 
 **What should I do if my kernel dies?**
 
