@@ -14,8 +14,7 @@ Admin feature provides the necessary access required to operate the hubs success
 Check this image to know your privileges for the admin option
 
 ```{figure} images/admin.png
-:width: 400 px
-:height: 200 px
+:width: 500px
 align: center
 :name: Datahub Admin
 
@@ -34,8 +33,7 @@ If you have admin access and want to know how to access admin portal then use th
 - Click the admin option from the top bar
 
 ```{figure} images/adminaccess.PNG
-:width: 400 px
-:height: 200 px
+:width: 500px
 align: center
 :name: Datahub Admin snapshot
 
@@ -46,6 +44,7 @@ Here is where you can find admin option!
 **How do I restart a student server?**
 
 - Click on the control panel
+- Click admin option
 - Find the user whose server you want to restart. 
 - Click restart server option
 

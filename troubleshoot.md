@@ -7,26 +7,26 @@ Are you facing issues with the Datahub and want to do some troubleshooting? If y
 
 **What should I do if my hub is running slow?**
 
-Try these options and reach out to us if they do not seem to work,
+Try these options and see if the speed is improving,
 
 - Restart your kernel if your hub is running slow
 
 - Check whether there are lot of open tabs? If yes, close the tabs that are not required.
 
+If it doesnt work, reach out to us!
+
 **What should I do if my code is running slow?**
 
-Your code running slow in general could be attributed to the varied programming practices that would have slowed the operation of the hub. 
-
-Check whether your code does any of the following, 
-1. You are running an Infinite loop 
-2. Your computation/calculation is big, 
+Your code running slow in general could get attributed to the varied programming practices that might have slowed the operation of the hub. Check whether your code does any of the following, 
+1. You are running an infinite loop 
+2. Your computation/calculation is big 
 3. You are joining tables that are too large
 4. You have too many notebooks open at the same time
 5. You are trying to show a table which is too large and as a result are crashing the browser
 
 **What should I do if I get "503 service unavailable error" regularly?**
 
-This error could be due to some of our stability improvements. To start with, Try restarting your server. Wait for sometime to see whether the issue still persists. If yes, raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose) so that we can take a look at it.
+This error could be due to some of our stability improvements. Try restarting your server and wait for sometime to see whether the issue still persists. If yes, raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose).
 
 **What should I do if I get "403 errors: Blocking request from unknown origin" regularly?**
 
@@ -46,11 +46,11 @@ If the issue still persists, raise a github issue.
 
 **What should I do if there is a package conflict?**
 
-Try to move to the previous version of the package to see if the conflict exists. If it still exists, try resolving the dependencies manually by installing the required packages. If you get stuck, do reach out to us. We will find a version of the package that works well with other packages in the hub.
+Try to move to the previous version of the package to see if the conflict exists. If it still exists, try resolving the dependencies manually by installing the required packages.
 
 **What should I do if my kernel dies?**
 
-As a rule of thumb, restart the kernel whenever it dies. This should solve a majority of the issues
+As a rule of thumb, restart the kernel whenever it dies. This should work for the most cases.
 
 **What should I do if I am getting RStudio Initialization Error: Error occurred during transmission error.**
 

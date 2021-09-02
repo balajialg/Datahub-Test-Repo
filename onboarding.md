@@ -7,15 +7,15 @@ Are you new to Datahub? Do you want to learn more about the services offered by 
 
 **What are the varied resources that I can review to onboard myself?**
 
-If you are new to Datahub and are interested to learn more about the configuration used by various Berkeley hubs, you can refer to this [resource](https://docs.datahub.berkeley.edu/en/latest/). If you want to set up a hub infrastructure at your end and are interested to learn more about the technical details then use this [resource](https://zero-to-jupyterhub.readthedocs.io/en/latest/)
+If you are new to Datahub and are interested to learn more about the configuration used by various Berkeley hubs, you can refer to this [resource](https://docs.datahub.berkeley.edu/en/latest/). If you want to set up a hub infrastructure at your end and are interested to learn more about the technical details then use this [resource](https://zero-to-jupyterhub.readthedocs.io/en/latest/).
 
 **What languages are supported by the hub?**
 
-Datahub primarily supports three languages - **Python, R and, Julia**. However, We can also support other languages on a case-to-case basis. If you have a unique requirement for the hub, Please share your exact requirement over an email to ds-infrastructure@lists.berkeley.edu to raise a Github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose).
+Datahub primarily supports three languages - **Python, R and, Julia**. However, We can also support other languages on a case-to-case basis. If you have a unique requirement for using a different programming language as part of the hub, Please share your requirement over an email to ds-infrastructure@lists.berkeley.edu or raise a Github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose).
 
 **How many hubs across the campus exist? Which courses use them extensively?**
 
-Currently, We have 15+ hubs that cater to the diverse needs of the campus audience. This includes the main Datahub, which supports multiple courses/departments. In addition, We have separate hubs for Data 8, Data 100, Biology etc. serving the needs of the teaching team and enrolled students. You can learn more about the varied hubs deployed through this [link](https://docs.datahub.berkeley.edu/en/latest/users/hubs.html)
+Currently, We have 15+ hubs that cater to the diverse needs of the campus audience. This includes the main Datahub, which supports multiple courses/departments. In addition, We have separate hubs for Data 8, Data 100, Biology etc. serving the needs of the teaching team and enrolled students. You can learn more about the varied hubs deployed through this [link](https://docs.datahub.berkeley.edu/en/latest/users/hubs.html).
 
 **What is the default Memory/CPU requirement for every hub?**
 
@@ -23,11 +23,11 @@ Our default hub Datahub has 1 GB of RAM. However, if your course/research has mo
 
 **What are the different services offered as part of the Datahub?**
 
-You can learn more about the varied services offered through  this jupyterhubs [documentation](https://docs.datahub.berkeley.edu/en/latest/users/services.html)
+You can learn more about the varied services offered through  this jupyterhubs [documentation](https://docs.datahub.berkeley.edu/en/latest/users/services.html).
 
 **What are the packages pre-installed for every hub?**
 
-Package requirement varies across the different hubs. We ensure that basic python packages such as NumPy, pandas, scikit-learn, matplotlib, etc., are installed across all the Jupyter hubs. Our R hubs also support shiny, dplyr, tidyR, RSQLlite, etc. However, you can customize the packages for the hubs by requesting them using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y)
+Package requirement varies across the different hubs. We ensure that basic python packages such as NumPy, pandas, scikit-learn, matplotlib, etc., are installed across all the Jupyter hubs. Our R hubs also support shiny, dplyr, tidyR, RSQLlite, etc. However, you can customize the packages for the hubs by requesting them using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y).
 
 **What is the process to raise Github issues? How can I track the raised issues?**
 
