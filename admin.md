@@ -7,25 +7,24 @@ Are you curious about the admin privileges in Datahub and are interested to lear
 
 **What does admin access in the hub mean?** 
 
-Admin feature provides necessary access required to successfully operate the hubs. If you are an admin user, you can access the following features, 
+Admin feature provides the necessary access required to operate the hubs successfully. If you are an admin user, you can access the following features,
 
-1. You can start and stop the students server as part of your dedicated hub
-
+1. You can start and stop the students' server as part of your dedicated hub
 2. You can access the student server to debug issues in their instance
+Check this image to know your privileges for the admin option
 
-Check this image to know your privileges for admin option
 ```{figure} images/admin.png
-:width: 800 px
-:height: 400 px
+:width: 400 px
+:height: 200 px
 align: center
 :name: Datahub Admin
 
-Here is how admin dashboard looks like!
+Here is how the admin dashboard looks like!
 ```
 
 **How do I get access to the admin view?** 
 
-We generally recommend only the teaching team to have admin access. If you are part of the teaching team and require admin access, please share your email id of all users to our support email list ds-infrastrucure@berkeley.edu.
+We generally recommend **only** the teaching team to have admin access. If you are part of the teaching team and require admin access, please share email id of all users to our support email list ds-infrastrucure@berkeley.edu.
 
 **How do I navigate the admin portal?**
 
@@ -35,8 +34,9 @@ If you have admin access and want to know how to access admin portal then use th
 - Click the admin option from the top bar
 
 ```{figure} images/adminaccess.PNG
-:width: 800 px
-:height: 400 px
+:width: 400 px
+:height: 200 px
+align: center
 :name: Datahub Admin snapshot
 
 Here is where you can find admin option!
