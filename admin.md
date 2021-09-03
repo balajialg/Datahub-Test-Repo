@@ -7,10 +7,11 @@ Are you curious about the admin privileges in Datahub and are interested to lear
 
 **What does admin access in the hub mean?** 
 
-Admin feature provides the necessary access required to operate the hubs successfully. If you are an admin user, you can access the following features,
+Admin feature provides the necessary access required to support students using your hub. If you are an admin user, you have access to the following features,
 
 1. You can start and stop the students' server as part of your dedicated hub
 2. You can access the student server to debug issues in their instance
+
 Check this image to know your privileges for the admin option
 
 ```{figure} images/admin.png
@@ -21,9 +22,9 @@ align: center
 Here is how the admin dashboard looks like!
 ```
 
-**How do I get access to the admin view?** 
+**How do I get access to the admin option?** 
 
-We generally recommend **only** the teaching team to have admin access. If you are part of the teaching team and require admin access, please share email id of all users to our support email list ds-infrastrucure@berkeley.edu.
+We generally recommend **only** the teaching team to have admin access. If you are part of the teaching team and require admin access, please share email id of all users to our support email to balajialwar@berkeley.edu.
 
 **How do I navigate the admin portal?**
 
@@ -41,11 +42,35 @@ Here is where you can find admin option!
 ```
 - Once  you click, you have access to instances of users and admins in that specific hub
 
-**How do I restart a student server?**
+**How do I start a student server?**
 
 - Click on the control panel
+
+```{figure} images/controlpanel.png
+:width: 500px
+align: center
+:name: Control Panel
+
+Here is how the control panel option looks like!
+```
 - Click admin option
+
+```{figure} images/adminaccess.PNG
+:width: 500px
+align: center
+:name: Datahub Admin snapshot
+
+Here is where you can find admin option!
+```
 - Find the user whose server you want to restart. 
+
+```{figure} images/user.PNG
+:width: 500px
+align: center
+:name: User List
+
+Here is how to search for an user!
+```
 - Click restart server option
 
 **How do I stop a student server?**
@@ -61,3 +86,12 @@ Here is where you can find admin option!
 - Click admin option
 - Search the calnet id of the student's instance you want to access
 - Click access server option to access student's instance
+
+
+```{figure} images/accessserver.PNG
+:width: 500px
+align: center
+:name: Access Server
+
+Here is how to access a server's instance!
+```

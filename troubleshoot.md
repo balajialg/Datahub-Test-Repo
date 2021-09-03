@@ -7,17 +7,17 @@ Are you facing issues with the Datahub and want to do some troubleshooting? If y
 
 **What should I do if my hub is running slow?**
 
-Try these options and see if the speed is improving,
+Try these options and see if the hub speed improves,
 
 - Restart your kernel if your hub is running slow
 
 - Check whether there are lot of open tabs? If yes, close the tabs that are not required.
 
-If it doesnt work, reach out to us!
+If it still doesnt work, raise a [bug](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml)!
 
 **What should I do if my code is running slow?**
 
-Your code running slow in general could get attributed to the varied programming practices that might have slowed the operation of the hub. Check whether your code does any of the following, 
+In general, it could be attributed to the varied programming practices adopted that might have slowed the operation of the hub. Check whether your code does any of the following, 
 1. You are running an infinite loop 
 2. Your computation/calculation is big 
 3. You are joining tables that are too large
@@ -30,23 +30,28 @@ This error could be due to some of our stability improvements. Try restarting yo
 
 **What should I do if I get "403 errors: Blocking request from unknown origin" regularly?**
 
-This error could be due to multiple reasons. 
+Sorry, that you had to face this error. This error could be due to multiple reasons. 
 
 - You are using a different domain other than berkeley.edu which could have potentially raised this issue. Raise a github issue, so that we can authorize your domain.
 
-- Large number of your students are trying to use the service resulting in failure of certain nodes. We are trying to scale our instance dynamically
+- Large number of your students are trying to use the service resulting in failure of certain nodes. We are working on improving how we scale the hub with large volume of users.
+
+Please raise a github issue!
 
 **What should I do if I get an “An unknown error occurred while loading this notebook” as part of the datahub service?**
 
 Try opening a new terminal from the instance and run the following command, 
 
+```python
 rm -f ~/.local/share/jupyter/nbsignatures.db
+```
 
 If the issue still persists, raise a github issue.
 
 **What should I do if there is a package conflict?**
 
-Try to move to the previous version of the package to see if the conflict exists. If it still exists, try resolving the dependencies manually by installing the required packages.
+[Get inputs from the team]
+Try to move to the previous version of the package to see if the conflict exists. If it still exists, try resolving the dependencies manually by installing the required packages. 
 
 **What should I do if my kernel dies?**
 
@@ -63,13 +68,7 @@ Please follow this workaround until a fix can be identified and implemented. Wor
 
 **What should I do if R Studio times out and kicks me out every 5 minutes or so?**
 
-
-**What should I do if I get an errors like these below**
-	1. While(1);{"error":"invalid_request","error_description":"redirect_uri does not match client settings"}
-	2. System has not been booted with systemd as init system (PID 1). Can't operate. Failed to create bus connection: Host is down.
-	3. “psql: FATAL: could not write init file” and “psql: .... No space left on device”
-	4. "no nodes available" / "insufficient memory" etc. 
-	5. “[Normal] Pulling image” 
+[Get inputs from team on how to handle this scenario]
 
 **What should I do if I have an issue that has not been documented in the FAQ?**
 
