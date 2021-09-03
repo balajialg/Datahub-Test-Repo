@@ -72,4 +72,4 @@ Please follow this workaround until a fix can be identified and implemented. Wor
 
 **What should I do if I have an issue that has not been documented in the FAQ?**
 
-Raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose)for the same! We will keep adding common issues to this FAQ!
+Raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose)! We will keep adding common issues to this FAQ!
