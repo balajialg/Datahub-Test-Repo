@@ -7,7 +7,7 @@ Do you have suggestions on new ways to improve our offering? If yes, read below!
 
 **How do I raise a new requirement for the hub?**
 
-Raise a new github issue using this [link](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=type%3A+enhancement&template=featurerequest.md). Follow the steps outlined as part of the template to make the case for this enhancement
+Raise a new github issue using this [link](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=type%3A+enhancement&template=featurerequest.md). Follow the steps outlined as part of the template to make the case for this enhancement.
 
 **Where will I get updates/notifications about the Datahub feature releases?**
 
@@ -19,4 +19,4 @@ Currently, We don't provide options to collaborate with other users using any of
 
 **How can I contribute to the open source community building this tool?**
 
-Thanks for thinking about contributing to this amazing community. Reach out to us! You can get a sense of how to contribute to Datahub by reading this [link](https://docs.datahub.berkeley.edu/en/latest/admins/pre-reqs.html)
+Thanks for thinking about contributing to this amazing community. Reach out to us! You can get a sense of how to contribute to Datahub by reading this [link](https://docs.datahub.berkeley.edu/en/latest/admins/pre-reqs.html).

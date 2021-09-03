@@ -13,7 +13,7 @@ Try these options and see if the hub speed improves,
 
 - Check whether there are lot of open tabs? If yes, close the tabs that are not required.
 
-If it still doesnt work, raise a [bug](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml)!
+If you still face the issue, raise a [bug](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml)!
 
 **What should I do if my code is running slow?**
 
@@ -24,13 +24,15 @@ In general, it could be attributed to the varied programming practices adopted t
 4. You have too many notebooks open at the same time
 5. You are trying to show a table which is too large and as a result are crashing the browser
 
+If none of the highlighted points seem relevant in your scenario, Please raise a bug request!
+
 **What should I do if I get "503 service unavailable error" regularly?**
 
-This error could be due to some of our stability improvements. Try restarting your server and wait for sometime to see whether the issue still persists. If yes, raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose).
+This error could be due to some of our stability improvements. Try restarting your server and wait for few minutes to see whether the issue still persists. If yes, raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose).
 
 **What should I do if I get "403 errors: Blocking request from unknown origin" regularly?**
 
-Sorry, that you had to face this error. This error could be due to multiple reasons. 
+Sorry, that you had to face this error. This error could be due to multiple reasons outlined below, 
 
 - You are using a different domain other than berkeley.edu which could have potentially raised this issue. Raise a github issue, so that we can authorize your domain.
 
