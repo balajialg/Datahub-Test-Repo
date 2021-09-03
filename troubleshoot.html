@@ -212,14 +212,14 @@
 <p>Are you facing issues with the Datahub and want to do some troubleshooting? If yes, read below!</p>
 </div>
 <p><strong>What should I do if my hub is running slow?</strong></p>
-<p>Try these options and see if the speed is improving,</p>
+<p>Try these options and see if the hub speed improves,</p>
 <ul class="simple">
 <li><p>Restart your kernel if your hub is running slow</p></li>
 <li><p>Check whether there are lot of open tabs? If yes, close the tabs that are not required.</p></li>
 </ul>
-<p>If it doesnt work, reach out to us!</p>
+<p>If it still doesnt work, raise a <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=bug&amp;template=bug_report.yml">bug</a>!</p>
 <p><strong>What should I do if my code is running slow?</strong></p>
-<p>Your code running slow in general could get attributed to the varied programming practices that might have slowed the operation of the hub. Check whether your code does any of the following,</p>
+<p>In general, it could be attributed to the varied programming practices adopted that might have slowed the operation of the hub. Check whether your code does any of the following,</p>
 <ol class="simple">
 <li><p>You are running an infinite loop</p></li>
 <li><p>Your computation/calculation is big</p></li>
@@ -230,17 +230,21 @@
 <p><strong>What should I do if I get “503 service unavailable error” regularly?</strong></p>
 <p>This error could be due to some of our stability improvements. Try restarting your server and wait for sometime to see whether the issue still persists. If yes, raise a github <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new/choose">issue</a>.</p>
 <p><strong>What should I do if I get “403 errors: Blocking request from unknown origin” regularly?</strong></p>
-<p>This error could be due to multiple reasons.</p>
+<p>Sorry, that you had to face this error. This error could be due to multiple reasons.</p>
 <ul class="simple">
 <li><p>You are using a different domain other than <a class="reference external" href="http://berkeley.edu">berkeley.edu</a> which could have potentially raised this issue. Raise a github issue, so that we can authorize your domain.</p></li>
-<li><p>Large number of your students are trying to use the service resulting in failure of certain nodes. We are trying to scale our instance dynamically</p></li>
+<li><p>Large number of your students are trying to use the service resulting in failure of certain nodes. We are working on improving how we scale the hub with large volume of users.</p></li>
 </ul>
+<p>Please raise a github issue!</p>
 <p><strong>What should I do if I get an “An unknown error occurred while loading this notebook” as part of the datahub service?</strong></p>
 <p>Try opening a new terminal from the instance and run the following command,</p>
-<p>rm -f ~/.local/share/jupyter/nbsignatures.db</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">rm</span> <span class="o">-</span><span class="n">f</span> <span class="o">~/.</span><span class="n">local</span><span class="o">/</span><span class="n">share</span><span class="o">/</span><span class="n">jupyter</span><span class="o">/</span><span class="n">nbsignatures</span><span class="o">.</span><span class="n">db</span>
+</pre></div>
+</div>
 <p>If the issue still persists, raise a github issue.</p>
 <p><strong>What should I do if there is a package conflict?</strong></p>
-<p>Try to move to the previous version of the package to see if the conflict exists. If it still exists, try resolving the dependencies manually by installing the required packages.</p>
+<p>[Get inputs from the team]
+Try to move to the previous version of the package to see if the conflict exists. If it still exists, try resolving the dependencies manually by installing the required packages.</p>
 <p><strong>What should I do if my kernel dies?</strong></p>
 <p>As a rule of thumb, restart the kernel whenever it dies. This should work for the most cases.</p>
 <p><strong>What should I do if I am getting RStudio Initialization Error: Error occurred during transmission error.</strong></p>
@@ -252,12 +256,7 @@
 <li><p>Try to launch rstudio as you normally would and it should now work.</p></li>
 </ol>
 <p><strong>What should I do if R Studio times out and kicks me out every 5 minutes or so?</strong></p>
-<p><strong>What should I do if I get an errors like these below</strong>
-1. While(1);{“error”:”invalid_request”,”error_description”:”redirect_uri does not match client settings”}
-2. System has not been booted with systemd as init system (PID 1). Can’t operate. Failed to create bus connection: Host is down.
-3. “psql: FATAL: could not write init file” and “psql: …. No space left on device”
-4. “no nodes available” / “insufficient memory” etc.
-5. “[Normal] Pulling image”</p>
+<p>[Get inputs from team on how to handle this scenario]</p>
 <p><strong>What should I do if I have an issue that has not been documented in the FAQ?</strong></p>
 <p>Raise a github <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new/choose">issue</a>for the same! We will keep adding common issues to this FAQ!</p>
 </div>
