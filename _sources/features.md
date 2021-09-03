@@ -15,8 +15,8 @@ We are trying to build a cadence by which we send public announcements about fea
  
 **How can I collaborate with other users on a notebook at the same time?**
 
-Currently, We don't provide options to collaborate with other users using any of our hubs. However, we are working towards integrating collaborative computing experience through Jupyterhub's Retrolab functionality.
+Currently, We don't provide options to collaborate with other users using any of our hubs. However, we are working towards integrating collaborative computing experience through Jupyterhub's [Retrolab](https://github.com/jupyterlab/retrolab) functionality.
 
 **How can I contribute to the open source community building this tool?**
 
-Reach out to us if you want to contribute and be part of this community. You can get a sense of how to contribute to Datahub by reading this [link] (https://docs.datahub.berkeley.edu/en/latest/admins/pre-reqs.html)
+Thanks for thinking about contributing to this amazing community. Reach out to us! You can get a sense of how to contribute to Datahub by reading this [link](https://docs.datahub.berkeley.edu/en/latest/admins/pre-reqs.html)

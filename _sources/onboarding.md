@@ -7,7 +7,7 @@ Are you new to Datahub? Do you want to learn more about the services offered by 
 
 **What are the varied resources that I can review to onboard myself?**
 
-If you are new to Datahub and are interested to learn more about the configuration used by various Berkeley hubs, you can refer to this [resource](https://docs.datahub.berkeley.edu/en/latest/). If you want to set up a hub infrastructure at your end and are interested to learn more about the technical details then use this [resource](https://zero-to-jupyterhub.readthedocs.io/en/latest/).
+If you are new to Datahub and are interested in learning more about the configuration of various Berkeley hubs, you can refer to this [resource](https://docs.datahub.berkeley.edu/en/latest/). If you want to set up a hub infrastructure at your end and are interested in learning more about the technical details, use this [resource](https://zero-to-jupyterhub.readthedocs.io/en/latest/).
 
 **What languages are supported by the hub?**
 
@@ -15,11 +15,11 @@ Datahub primarily supports three languages - **Python, R and, Julia**. However, 
 
 **How many hubs across the campus exist? Which courses use them extensively?**
 
-We have 15+ hubs that cater to the diverse needs of the campus audience. This includes the main Datahub, which serves multiple courses/departments across the campus. In addition, We have separate hubs for courses such as Data 8, Data 100, Public health etc. serving the needs of the teaching team and enrolled students. You can learn more about the varied hubs deployed through this [link](https://docs.datahub.berkeley.edu/en/latest/users/hubs.html).
+We have 15+ hubs that cater to the diverse needs of the campus audience. We have the main Datahub, which serves multiple courses/departments across the campus. In addition, We have separate hubs for courses such as Data 8, Data 100, Public health, etc., serving the teaching team's needs and enrolled students. You can learn more about the varied hubs deployed through this [link](https://docs.datahub.berkeley.edu/en/latest/users/hubs.html).
 
 **What is the default Memory/CPU requirement for every hub?**
 
-Our default hub Datahub has 1 GB of RAM. However, if your course/research has more complex computation requiring increased RAM, please reach out to us.
+Our default hub Datahub has 1 GB of RAM. However, please reach out to us if your course/research has more complex computation requiring increased RAM.
 
 **What are the different services offered as part of the Datahub?**
 
@@ -35,20 +35,21 @@ If you want to raise a bug, you can use this [link](https://github.com/berkeley-
 
 **When do I receive a response when an issue gets raised?**
 
-We currently don’t have any Service Level Agreement (SLA) with regard to varied requests from users. However, we try to respond to your queries within 1-2 days. In the upcoming days, we will also define an SLA for basic requests such as package requests, admin access, data retrieval etc.
+We currently don’t have any Service Level Agreement (SLA) concerning varied requests from users. However, we try to respond to your queries within 1-2 days. In the upcoming days, we will also define an SLA for basic requests such as package requests, admin access, data retrieval, etc.
 
 **Are there existing templates for submitting requests to the infrastructure team?**
 
-You can refer to the following templates for varied usecases, 
+You can refer to the following templates for varied use-cases,
 
-**Issue Tracker:** please do use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml) to raise an issue if you found a bug in the workflow.
+**Issue Tracker:** 
+Please use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml) to raise an issue if you found a bug in the workflow.
 
-**New Enhancement:** If you envision a new feature/documentation that would help your existing workflow, then please do use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=type%3A+enhancement&template=featurerequest.md) to submit a request.
+**New Enhancement:** If you envision a new feature/documentation that would help your existing workflow, please use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=type%3A+enhancement&template=featurerequest.md) to submit a request.
 
-**Package Addition/Change request:** If you want to install new packages in R/Python/Julia as part of your hub then please do raise a request using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=higher-resources.md&title=Request+more+RAM+for+class+X).
+**Package Addition/Change request:** If you want to install new packages in R/Python/Julia as part of your hub, please raise a request using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=higher-resources.md&title=Request+more+RAM+for+class+X).
 
-**Request for RAM:** If you want to increase/decrease RAM for a specific hub then please do use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y) to make the request.
+**Request for RAM:** If you want to increase/decrease RAM for a specific hub then please use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y) to make the request.
 
 **As an instructor, What is the process to create a hub for teaching a course?**
 
-We generally prefer that you use our existing hubs for your work as they already cater to diverse usecases. You can use the Datahub for teaching purposes if you have a small class size and/or the computational requirements for your courses and/or research are not complex. If you have genomic data and so require complex computations then we would recommend using other hubs such as Biology. You can contact us for more details!
+We generally prefer that you use our existing hubs for your work as they already cater to diverse use cases. You can use the Datahub for teaching purposes if you have small class size and/or the computational requirements for your courses and/or research are not complex. If you have genomic data and require complex computations, we recommend using other hubs such as Biology. You can contact us for more details!

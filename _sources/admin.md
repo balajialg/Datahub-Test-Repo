@@ -46,7 +46,7 @@ Here is where you can find admin option!
 
 - Click on the control panel
 
-```{figure} images/controlpanel.png
+```{figure} images/controlpanel.PNG
 :width: 500px
 align: center
 :name: Control Panel
