@@ -9,7 +9,7 @@ Are you curious about the admin privileges in Datahub and are interested to lear
 
 Admin feature provides the necessary access required to support students using your hub. If you are an admin user, you have access to the following features,
 
-1. You can start and stop the students' server as part of your dedicated hub
+1. You can start and stop the students' server in your dedicated hub
 2. You can access the student server to debug issues in their instance
 
 Check this image to know your privileges for the admin option
