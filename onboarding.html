@@ -213,24 +213,39 @@
 <p><strong>What are the varied resources that I can review to onboard myself?</strong></p>
 <p>If you are new to Datahub and are interested in learning more about the configuration of various Berkeley hubs, you can refer to this <a class="reference external" href="https://docs.datahub.berkeley.edu/en/latest/">resource</a>. If you want to set up a hub infrastructure at your end and are interested in learning more about the technical details, use this <a class="reference external" href="https://zero-to-jupyterhub.readthedocs.io/en/latest/">resource</a>.</p>
 <p><strong>What languages are supported by the hub?</strong></p>
-<p>Datahub primarily supports three languages - <strong>Python, R and, Julia</strong>. However, We can also support other languages on a case-to-case basis. If you have a unique requirement for using a different programming language as part of the hub, Please share your requirement over an email to <a class="reference external" href="mailto:ds-infrastructure&#37;&#52;&#48;lists&#46;berkeley&#46;edu">ds-infrastructure<span>&#64;</span>lists<span>&#46;</span>berkeley<span>&#46;</span>edu</a> or raise a Github <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new/choose">issue</a>.</p>
+<p>Datahub primarily supports three languages - <strong>Python, R and, Julia</strong>. However, We can also support other languages on a case-to-case basis. If you have a unique requirement for using a different programming language as part of the hub, Please share your requirement over an email to Eric Van Dusen (<a class="reference external" href="mailto:ericvd&#37;&#52;&#48;berkeley&#46;edu">ericvd<span>&#64;</span>berkeley<span>&#46;</span>edu</a>)/Balaji Alwar (<a class="reference external" href="mailto:balajialwar&#37;&#52;&#48;berkeley&#46;edu">balajialwar<span>&#64;</span>berkeley<span>&#46;</span>edu</a>) or raise a Github <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new/choose">issue</a>.</p>
 <p><strong>How many hubs across the campus exist? Which courses use them extensively?</strong></p>
-<p>We have 15+ hubs that cater to the diverse needs of the campus audience. We have the main Datahub, which serves multiple courses/departments across the campus. In addition, We have separate hubs for courses such as Data 8, Data 100, Public health, etc., serving the teaching team’s needs and enrolled students. You can learn more about the varied hubs deployed through this <a class="reference external" href="https://docs.datahub.berkeley.edu/en/latest/users/hubs.html">link</a>.</p>
+<p>We have 15+ hubs that cater to the diverse needs of the campus audience. We have the main Datahub, which serves multiple departments/courses across the campus. In addition, We have separate hubs for courses such as Data 8, Data 100, Public health, etc., serving the teaching team’s and enrolled students needs. You can learn more about the varied hubs deployed through this <a class="reference external" href="https://docs.datahub.berkeley.edu/en/latest/users/hubs.html">link</a>.</p>
 <p><strong>What is the default Memory/CPU requirement for every hub?</strong></p>
-<p>Our default hub Datahub has 1 GB of RAM. However, please reach out to us if your course/research has more complex computation requiring increased RAM.</p>
+<p>Our default hub Datahub has a memory limit of 1 GB of RAM. However, please contact us if your course/research has more complex computation requiring increased RAM.</p>
+<p>If you are interested to know more about how much memory was consumed by your instance or whether you had exceeded the memory limit, Please use the following steps,</p>
+<ul class="simple">
+<li><p>Look at the top right corner of your Python/R notebook for the term memory. It will highlight the amount of memory you had consumed by the amount of memory provided to your instance.</p></li>
+<li><p>If your consumed memory is greater than available memory for your instance, then please do reach out to us,</p></li>
+</ul>
+<div class="figure align-default" id="id1">
+<a class="reference internal image-reference" href="_images/memory.png"><img alt="_images/memory.png" src="_images/memory.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text">align: center
+:name: Available Memory</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<div class="legend">
+<p>Here is how where you can find the memory related details!</p>
+</div>
+</div>
 <p><strong>What are the different services offered as part of the Datahub?</strong></p>
 <p>We offer UI for Classic Jupyter Notebook, RStudio and JupyterLab across different hubs. You can learn more about the varied services offered through this jupyterhubs <a class="reference external" href="https://docs.datahub.berkeley.edu/en/latest/users/services.html">documentation</a>.</p>
 <p><strong>What are the packages pre-installed for every hub?</strong></p>
-<p>Package requirement varies across the different hubs. We ensure that basic python packages such as NumPy, pandas, scikit-learn, matplotlib, etc., are installed across all the Jupyter hubs. Our R hubs also support shiny, dplyr, tidyR, RSQLlite, etc. However, you can customize the packages for the hubs by requesting them using this <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=support&amp;template=datahub-package-addition---change-request.md&amp;title=Request+python+package+X+for+class+Y">template</a>.</p>
+<p>Package requirement varies across the different hubs. We ensure that basic python packages such as NumPy, pandas, scikit-learn, matplotlib, etc., are installed across all the Jupyter hubs. Our R hubs also support shiny, dplyr, tidyR, RSQLlite, etc. However, you can customize the packages for the hubs by requesting them using this <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=support&amp;template=datahub-package-addition---change-request.md&amp;title=Request+python+package+X+for+class+Y">template</a>. We will respond to your requests within three working days.</p>
 <p><strong>What is the process to raise Github issues? How can I track the raised issues?</strong></p>
 <p>If you want to raise a bug, you can use this <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new/choose">link</a> to submit your issues. You can also use post messages to our <a class="reference external" href="https://piazza.com/class/ksqmnrrhvcl11f">Piazza channel</a> to raise further queries!</p>
 <p><strong>When do I receive a response when an issue gets raised?</strong></p>
 <p>We currently don’t have any Service Level Agreement (SLA) concerning varied requests from users. However, we try to respond to your queries within 1-2 days. In the upcoming days, we will also define an SLA for basic requests such as package requests, admin access, data retrieval, etc.</p>
-<p><em>Tentative SLA for varied requests</em>
-SLA for package installation: Within three working days
-SLA for admin access: Within two working days
-SLA for data archival request: Within three working days
-SLA for RAM increase (if the team validates the raised request): Within three working days</p>
+<p><em>Tentative SLA for varied requests</em></p>
+<ul class="simple">
+<li><p>SLA for package installation: All requests will be acknowledged within three working days</p></li>
+<li><p>SLA for admin access: Within two working days</p></li>
+<li><p>SLA for data archival request: Within three working days</p></li>
+<li><p>SLA for RAM increase (if the team validates the raised request): Within three working days</p></li>
+</ul>
 <p><strong>Are there existing templates for submitting requests to the infrastructure team?</strong></p>
 <p>You can refer to the following templates catering to varied scenarios,</p>
 <p><strong>Issue Tracker:</strong>
@@ -238,8 +253,15 @@ Please use this <a class="reference external" href="https://github.com/berkeley-
 <p><strong>New Enhancement:</strong> If you envision a new feature/documentation that would help your existing workflow, please use this <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=type%3A+enhancement&amp;template=featurerequest.md">template</a> to submit a request.</p>
 <p><strong>Package Addition/Change request:</strong> If you want to install new packages in R/Python/Julia as part of your hub, please raise a request using this <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=support&amp;template=higher-resources.md&amp;title=Request+more+RAM+for+class+X">template</a>.</p>
 <p><strong>Request for RAM:</strong> If you want to increase/decrease RAM for a specific hub then please use this <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=support&amp;template=datahub-package-addition---change-request.md&amp;title=Request+python+package+X+for+class+Y">template</a> to make the request.</p>
+<p>** Request to recover hub data:** If you want to request data stored as part of your hub instance, then please do use this <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=support&amp;template=data_archival_request.yml">template</a> to raise a request</p>
 <p><strong>As an instructor, What is the process to create a hub for teaching a course?</strong></p>
-<p>We generally prefer that you use our existing hubs for your work as they already cater to diverse needs. You can use the Datahub for teaching purposes if you have small class size and/or the computational requirements for your courses and/or research are not complex. If you have genomic data and require complex computations, we recommend using other hubs such as Biology. You can contact us for more details!</p>
+<p>We generally prefer that you use our existing hubs for your work as they already cater to diverse needs.</p>
+<ul class="simple">
+<li><p>You can use the Datahub for teaching purposes if you have small class size and/or the computational requirements for your courses and/or research are not complex.</p></li>
+<li><p>If you have genomic data and require complex computations, we recommend using other hubs such as Biology.</p></li>
+<li><p>You can use EECS hub if you require postgres database service.</p></li>
+</ul>
+<p>You can contact reach out to Eric Van Dusen (<a class="reference external" href="mailto:ericvd&#37;&#52;&#48;berkeley&#46;edu">ericvd<span>&#64;</span>berkeley<span>&#46;</span>edu</a>)/Balaji Alwar (<a class="reference external" href="mailto:balajialwar&#37;&#52;&#48;berkeley&#46;edu">balajialwar<span>&#64;</span>berkeley<span>&#46;</span>edu</a>) for more details!</p>
 <div class="toctree-wrapper compound">
 </div>
 </div>
