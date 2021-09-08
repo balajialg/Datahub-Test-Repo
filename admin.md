@@ -1,7 +1,7 @@
 # Admin Privileges
 
 ```{note}
-Are you curious about the admin privileges in Datahub and are interested to learn more about it? If yes, read below!
+Curious about what privileges admins have in Datahub? If yes, read below!
 
 ```
 
