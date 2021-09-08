@@ -39,11 +39,11 @@ We offer UI for Classic Jupyter Notebook, RStudio and JupyterLab across differen
 
 **What are the packages pre-installed for every hub?**
 
-Package requirement varies across the different hubs. We ensure that basic python packages such as NumPy, pandas, scikit-learn, matplotlib, etc., are installed across all the Jupyter hubs. Our R hubs also support shiny, dplyr, tidyR, RSQLlite, etc. However, you can customize the packages for the hubs by requesting them using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y). We will respond to your requests within three working days.
+Package requirement varies across the different hubs. We ensure that basic python packages such as NumPy, pandas, scikit-learn, matplotlib, etc., are installed across all the Jupyter hubs. Our R hubs also support shiny, dplyr, tidyR, RSQLlite, etc. However, you can customize the packages for the hubs by requesting them using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y). Here is the [list](https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/requirements.txt) of Python packages installed across hubs. Here is the [list](https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/install.R) of R packages installed across hubs.
 
 **What is the process to raise Github issues? How can I track the raised issues?**
 
-If you want to raise a bug, you can use this [link](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose) to submit your issues. You can also use post messages to our [Piazza channel](https://piazza.com/class/ksqmnrrhvcl11f) to raise further queries!
+If you want to raise a bug, you can use this [link](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose) to submit your issues. You can also use post messages to our [Piazza channel](https://piazza.com/class/ksqmnrrhvcl11f) if you require real time troubleshooting!
 
 **When do I receive a response when an issue gets raised?**
 
@@ -69,12 +69,7 @@ If you found a bug in the workflow, Please use this [template](https://github.co
 
 **Request to recover hub data:** If you want to request data stored as part of your hub instance, then please do use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=data_archival_request.yml) to raise a request
 
-**As an instructor, What is the process to create a hub for teaching a course?**
+**As an instructor what do I need to do to set up the hub for my course?**
 
-We generally prefer that you use our existing hubs for your work as they already cater to diverse needs. Highlighting some of the common usecases for our major hubs,
+Honestly, nothing! You are free to go ahead and start using the Datahub starting today. We expect that all course members log in using their UC Berkeley email id. We also expect that you are using [nbgitpuller service](https://jupyterhub.github.io/nbgitpuller/link) to distribute materials to your class. We can help you set up the links so that you can distribute them through your course website. 
 
-- Datahub is used for courses with small class size and/or the computational requirements for the courses and/or research are not complex. 
-- Biology hub has been used for processing genomic data requiring complex computations 
-- EECS hub is used for its user interface based services and for offering postgres DB. 
-
-You can contact reach out to Eric Van Dusen (ericvd@berkeley.edu)/Balaji Alwar (balajialwar@berkeley.edu) for more details!
