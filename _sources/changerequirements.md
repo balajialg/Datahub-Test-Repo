@@ -7,16 +7,17 @@ Interested to learn more about how to change the default requirements for your h
 
 **What should I do if I want to increase the RAM size in my hub?**
 
-Raise a request using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=higher-resources.md&title=Request+more+RAM+for+class+X). 
+Raise a request to increase your RAM using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=higher-resources.md&title=Request+more+RAM+for+class+X). 
 Please highlight the reasons for requesting this RAM upgrade as it has cost implications for this service. 
 
 **What should I do if I need more CPU power as part of my hub?**
 
-Raise a request using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose)! We would like to know the reasons for requesting more CPU power as it also has cost implications at our end.
+Raise a request to increase the CPU power using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose)! Please highlight the reasons for requesting this CPU upgrade as it has cost implications for this service. 
+
 
 **What should I do if I want to install more packages?**
 
-- Please use your datahub instance to install the required version of the package. 
+- Use your datahub instance to install the required version of the package. 
 
 - Check if there are specific dependencies for this package and highlight them along with their version in your request. 
 
@@ -42,4 +43,4 @@ You can directly use the [R Datahub](http://r.datahub.berkeley.edu/) dedicated t
 
 **As an instructor, Can I request a custom image with different installation requirements?**
 
-It depends on your required. Please do send an email to Eric Van Dusen (ericvd@berkeley.edu)/Balaji Alwar (balajialwar@berkeley.edu) with your detailed requirement.
+It depends on your requirement. Please do send an email to Eric Van Dusen (ericvd@berkeley.edu)/Balaji Alwar (balajialwar@berkeley.edu) with your detailed requirement.
