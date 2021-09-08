@@ -1,21 +1,21 @@
-# Requesting new features in Datahub
+# Requesting new features in hub
 
 ```{note}
-Do you have suggestions on new ways to improve our offering? If yes, read below!
+Have suggestions on new ways to improve our offering? If yes, read below!
 
 ```
 
 **How do I raise a new requirement for the hub?**
 
-Raise a new github issue using this [link](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=type%3A+enhancement&template=featurerequest.md). Follow the steps outlined as part of the template to make the case for this enhancement.
+We are always open to new ways to support the campus community using Datahub. If you have a new requirement, Raise a new github issue using this [link](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=type%3A+enhancement&template=featurerequest.md). Follow the steps outlined as part of the template to make the case for this enhancement.
 
 **Where will I get updates/notifications about the Datahub feature releases?**
 
-We are trying to build a cadence by which we send public announcements about feature releases or version upgrades. Do watch out for emails from datahub-announce list going forward!
+We are trying to build a cadence by which we send public announcements about feature releases or version upgrades in the upcoming months. Do watch out for emails from datahub-announce list!
  
 **How can I collaborate with other users on a notebook at the same time?**
 
-Currently, We don't provide options to collaborate with other users using any of our hubs. However, we are working towards integrating collaborative computing experience through Jupyterhub's [Retrolab](https://github.com/jupyterlab/retrolab) functionality.
+We don't have options to collaborate with other users using any of our hubs at this juncture. However, we are working towards integrating collaborative computing experience through Jupyterhub's [Retrolab](https://github.com/jupyterlab/retrolab) functionality.
 
 **How can I contribute to the open source community building this tool?**
 

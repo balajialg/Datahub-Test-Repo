@@ -24,7 +24,7 @@ Here is how the admin dashboard looks like!
 
 **How do I get access to the admin option?** 
 
-We generally recommend **only** the teaching team to have admin access. If you are part of the teaching team and require admin access, please share email id of all users to our support email to balajialwar@berkeley.edu.
+We generally recommend **only** the teaching team to have admin access. If you are part of the teaching team and require admin access, please create a request using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=admin_request.yml)
 
 **How do I navigate the admin portal?**
 

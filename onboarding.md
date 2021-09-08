@@ -7,7 +7,7 @@ New to Datahub? Interested to learn more about the services offered by the hub? 
 
 **How can I learn more about Datahub to onboard myself?**
 
-If you are new to Datahub and want to know more about Datahub, refer to our [website](https://datahub.berkeley.edu/hub/login?next=%2Fhub%2F). If you are interested in learning more about the configuration of various Berkeley hubs, you can refer to this [resource](https://docs.datahub.berkeley.edu/en/latest/). If you want to set up a hub infrastructure at your end and are interested in learning more about the technical details, use this [resource](https://zero-to-jupyterhub.readthedocs.io/en/latest/).
+If you are new to Datahub and want to know more, refer to our [website](https://datahub.berkeley.edu/hub/login?next=%2Fhub%2F). If you are interested in learning more about the configuration of various Berkeley hubs, you can refer to this [resource](https://docs.datahub.berkeley.edu/en/latest/). If you want to set up a hub infrastructure at your end and are interested in learning more about the technical details, use this [resource](https://zero-to-jupyterhub.readthedocs.io/en/latest/).
 
 **What languages are supported by the hub?**
 
@@ -47,13 +47,12 @@ If you want to raise a bug, you can use this [link](https://github.com/berkeley-
 
 **When do I receive a response when an issue gets raised?**
 
-We currently don’t have any Service Level Agreement (SLA) concerning varied requests from users. However, we try to respond to your queries within 1-2 days. In the upcoming days, we will also define an SLA for basic requests such as package requests, admin access, data retrieval, etc.
+Please refer to the below Service Level Agreement (SLA) for varied requests. It will be finalized soon,
 
-*Tentative SLA for varied requests*
-- SLA for package installation: All requests will be acknowledged within three working days
-- SLA for admin access: Within two working days
-- SLA for data archival request: Within three working days
-- SLA for RAM increase (if the team validates the raised request): Within three working days
+- SLA for package installation: "Acknowledgement within two working days."
+- SLA for RAM increase: "Acknowledgement within two working days."
+- SLA for admin access: "Request completed within two working days."
+- SLA for data archival request: "Request completed within three working days."
 
 **Are there existing templates for submitting requests to the infrastructure team?**
 
