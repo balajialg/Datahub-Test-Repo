@@ -1,7 +1,7 @@
 # Changing existing requirements
 
 ```{note}
-Are you interested to learn more about how to change the default requirements for the Datahub? If yes, read below!
+Interested to learn more about how to change the default requirements for your hub? If yes, read below!
 
 ```
 
