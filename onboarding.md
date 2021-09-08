@@ -7,7 +7,7 @@ New to Datahub? Interested to learn more about the services offered by the hub? 
 
 **How can I learn more about Datahub to onboard myself?**
 
-If you are new to Datahub and want to know more about Datahub, refer to this [web page](https://datahub.berkeley.edu/hub/login?next=%2Fhub%2F). If you are interested in learning more about the configuration of various Berkeley hubs, you can refer to this [resource](https://docs.datahub.berkeley.edu/en/latest/). If you want to set up a hub infrastructure at your end and are interested in learning more about the technical details, use this [resource](https://zero-to-jupyterhub.readthedocs.io/en/latest/).
+If you are new to Datahub and want to know more about Datahub, refer to our [website](https://datahub.berkeley.edu/hub/login?next=%2Fhub%2F). If you are interested in learning more about the configuration of various Berkeley hubs, you can refer to this [resource](https://docs.datahub.berkeley.edu/en/latest/). If you want to set up a hub infrastructure at your end and are interested in learning more about the technical details, use this [resource](https://zero-to-jupyterhub.readthedocs.io/en/latest/).
 
 **What languages are supported by the hub?**
 
@@ -72,10 +72,10 @@ If you found a bug in the workflow, Please use this [template](https://github.co
 
 **As an instructor, What is the process to create a hub for teaching a course?**
 
-We generally prefer that you use our existing hubs for your work as they already cater to diverse needs. 
+We generally prefer that you use our existing hubs for your work as they already cater to diverse needs. Highlighting some of the common usecases for our major hubs,
 
-- You can use the Datahub for teaching purposes if you have small class size and/or the computational requirements for your courses and/or research are not complex. 
-- If you have genomic data and require complex computations, we recommend using other hubs such as Biology. 
-- You can use EECS hub if you require postgres database service. 
+- Datahub is used for courses with small class size and/or the computational requirements for the courses and/or research are not complex. 
+- Biology hub has been used for processing genomic data requiring complex computations 
+- EECS hub is used for its user interface based services and for offering postgres DB. 
 
 You can contact reach out to Eric Van Dusen (ericvd@berkeley.edu)/Balaji Alwar (balajialwar@berkeley.edu) for more details!
