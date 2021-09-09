@@ -32,34 +32,49 @@ As a first instance we recommend that the instructors adapt the materials to the
 
 **As an instructor, What should I do if I want to conduct a workshop? Are there any existing hubs that I could repurpose?**
 
-Please send an email to Eric Van Dusen (ericvd@berkeley.edu)/Balaji Alwar (balajialwar@berkeley.edu) with the specific request you have in mind. We would like to know i) Your exact need, ii) Memory/CPU requirement, iii) Total number of participants, iv) Dataset size, and v) Language required.
+Yes. We do support using our hubs for workshops. For example, [D-Lab](https://dlab.berkeley.edu/) uses Datahub to run its R workshops regularly.
+
+Please send an email to Eric Van Dusen (ericvd@berkeley.edu)/Balaji Alwar (balajialwar@berkeley.edu) with the specific request you have in mind. 
+
+```{note}
+We would like to know 
+- Your exact need, 
+- Memory/CPU requirement 
+- Total number of participants 
+- Dataset size, and 
+- Language required.
+```
 
 **As a researcher, What is the process to request a hub focused on research?**
 
-We offer hubs to support the teaching practices of our instructors. If you are interested to do research then we would recommend you to contact the team at [Research IT](https://research-it.berkeley.edu/). You might benefit from checking out their High Performance Computing Cluster [Savio](https://research-it.berkeley.edu/services-projects/high-performance-computing-savio) and [On Demand Virtual Machines](https://research-it.berkeley.edu/services-projects/aeod-virtual-machines). 
+We offer hubs to support the teaching practices of our instructors. If you are interested in doing core research, we recommend you contact the team at [Research IT](https://research-it.berkeley.edu/), who may support you with your specific use-case.
+
+ ```{tip}
+You might benefit from checking out their High Performance Computing Cluster [Savio](https://research-it.berkeley.edu/services-projects/high-performance-computing-savio) and [On Demand Virtual Machines](https://research-it.berkeley.edu/services-projects/aeod-virtual-machines).
+```
 
 **I am going to run a large dataset for my class. What are the steps I can take to ensure that the hub has the required compute power?**
 
-As a rule of thumb, we recommend the following steps. If these steps are not helpful, then we would recommend reaching out to us separately,
+As a rule of thumb, we recommend the following steps. If these steps are not helpful, reach out to us separately,
 
-- Github has a file upload limit of 100 MB. Considering that, We recommend keeping the dataset size below 100 MB by creating a subset of the dataset for this specific reason. 
+- Github has a file upload limit of 100 MB. Considering this, We recommend that you keep the dataset size below 100 MB. You could either create a subset of the dataset or find another dataset that fits the size limits for overcoming this constraint. 
  
- ```{tip} text
-Most of the issues with the dataset arise due to the programming practices used to operate the dataset, such as a lot of time is spent reading/writing to the disk or single-threaded executions that can max the allocated CPU. Therefore, it would be good to use a profiler to check what is causing the maximum CPU/RAM consumption.
+ ```{tip}
+Most of the issues with the dataset arise due to the programming practices used while operating the dataset, such as a lot of machine time spent reading/writing to the disk or single-threaded executions that can max the allocated CPU. Therefore, it would be good to use a profiler to check what is causing the maximum CPU/RAM consumption.
 ```
  
 - If resizing the dataset is not feasible, Profile your system to understand the CPU/Memory consumption while operating on the dataset. Use this data to take modify your programming practices so that you are within the allocated RAM size. If you are using python, this [resource](https://docs.python.org/3/library/debug.html) will be helpful to understand your memory/CPU conusmption. If you are using R, this [resource](https://support.rstudio.com/hc/en-us/articles/218221837-Profiling-R-code-with-the-RStudio-IDE) may be helpful with profiling.
-
 
 
 **What should I do If I want to switch from an existing hub to an R hub?**
 
 You can directly use the [R Datahub](http://r.datahub.berkeley.edu/) dedicated to serving courses using R. If you have other specific requirements, please do reach out to us.
 
-**When can I create a new hub? **
+**When can I create a new hub?**
 
-We generally prefer using our existing hubs for teaching your courses. Our guiding principles for allowing the creation of new hub follows below,
+We generally prefer using our existing hubs for teaching your courses. Our guiding principles for allowing the creation of new hub are,
 
+ ```{note}
 - When the course has a large user base
 
 - When there is a need for undergrad admins to have admin access
@@ -67,6 +82,7 @@ We generally prefer using our existing hubs for teaching your courses. Our guidi
 - When there is a specific technical/architectural reasons
 
 - When there is a strong institutional/strategic reason
+```
 
 **As an instructor, Can I request a custom image with different installation requirements?**
 

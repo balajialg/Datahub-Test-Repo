@@ -12,6 +12,10 @@ We are always open to new ways of supporting the campus community using Datahub.
 **Where will I get updates/notifications about the Datahub feature releases?**
 
 We are trying to build a cadence by sending public announcements about feature releases or version upgrades in the upcoming months. So do watch out for emails from the datahub-announce list!
+
+```{tip}
+If you are interested to know more about our current priorities for the Datahub, then check our [sprint board](https://github.com/berkeley-dsep-infra/datahub/projects)
+```
  
 **How can I collaborate with other users on a notebook at the same time?**
 
