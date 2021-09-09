@@ -217,14 +217,14 @@
 <li><p>You can start and stop the students’ server in your dedicated hub</p></li>
 <li><p>You can access the student server to debug issues in their instance</p></li>
 </ol>
-<p>Check this image to know your privileges for the admin option</p>
-<div class="figure align-default" id="id1">
-<a class="reference internal image-reference" href="_images/admin.png"><img alt="_images/admin.png" src="_images/admin.png" style="width: 500px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">align: center
-:name: Datahub Admin</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
-<div class="legend">
-<p>Here is how the admin dashboard looks like!</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Admin privileges are hub-wide. If you’re a teaching team member who happens to be also a student in another course on the same hub, then there can be a conflict of interest.</p>
 </div>
+<p>Check this image to know your privileges for the admin option</p>
+<div class="figure align-center" id="datahub-admin">
+<a class="reference internal image-reference" href="_images/admin.png"><img alt="_images/admin.png" src="_images/admin.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">Here is how the admin dashboard looks like!</span><a class="headerlink" href="#datahub-admin" title="Permalink to this image">¶</a></p>
 </div>
 <p><strong>How do I get access to the admin option?</strong></p>
 <p>We generally recommend <strong>only</strong> the teaching team to have admin access. If you are part of the teaching team and require admin access, please create a request using this <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=support&amp;template=admin_request.yml">template</a></p>
@@ -234,50 +234,39 @@
 <li><p>Login to your hub instance</p></li>
 <li><p>Click the admin option from the top bar</p></li>
 </ul>
-<div class="figure align-default" id="id2">
+<div class="figure align-center" id="datahub-admin-snapshot">
 <a class="reference internal image-reference" href="_images/adminaccess.PNG"><img alt="_images/adminaccess.PNG" src="_images/adminaccess.PNG" style="width: 500px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 3 </span><span class="caption-text">align: center
-:name: Datahub Admin snapshot</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
-<div class="legend">
-<p>Here is where you can find admin option!</p>
-</div>
+<p class="caption"><span class="caption-number">Fig. 3 </span><span class="caption-text">Here is where you can find admin option!</span><a class="headerlink" href="#datahub-admin-snapshot" title="Permalink to this image">¶</a></p>
 </div>
 <ul class="simple">
 <li><p>Once  you click, you have access to instances of users and admins in that specific hub</p></li>
+</ul>
+<p>If you are using the R hub, then you may need to follow the below steps,</p>
+<ul class="simple">
+<li><p>You can replace <a class="reference external" href="https://r-staging.datahub.berkeley.edu/user/">https://r-staging.datahub.berkeley.edu/user/</a>&lt;<your-calnet-id>&gt;/rstudio/ with <a class="reference external" href="https://r-staging.datahub.berkeley.edu/hub/admin">https://r-staging.datahub.berkeley.edu/hub/admin</a> to get to the admin interface
+and <a class="reference external" href="https://r-staging.datahub.berkeley.edu/hub/home">https://r-staging.datahub.berkeley.edu/hub/home</a> to restart your server</p></li>
 </ul>
 <p><strong>How do I start a student server?</strong></p>
 <ul class="simple">
 <li><p>Click on the control panel</p></li>
 </ul>
-<div class="figure align-default" id="id3">
+<div class="figure align-center" id="control-panel">
 <a class="reference internal image-reference" href="_images/controlpanel.PNG"><img alt="_images/controlpanel.PNG" src="_images/controlpanel.PNG" style="width: 500px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 4 </span><span class="caption-text">align: center
-:name: Control Panel</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
-<div class="legend">
-<p>Here is how the control panel option looks like!</p>
-</div>
+<p class="caption"><span class="caption-number">Fig. 4 </span><span class="caption-text">Here is how the control panel option looks like!</span><a class="headerlink" href="#control-panel" title="Permalink to this image">¶</a></p>
 </div>
 <ul class="simple">
 <li><p>Click admin option</p></li>
 </ul>
-<div class="figure align-default" id="id4">
+<div class="figure align-center" id="id1">
 <a class="reference internal image-reference" href="_images/adminaccess.PNG"><img alt="_images/adminaccess.PNG" src="_images/adminaccess.PNG" style="width: 500px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 5 </span><span class="caption-text">align: center
-:name: Datahub Admin snapshot</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
-<div class="legend">
-<p>Here is where you can find admin option!</p>
-</div>
+<p class="caption"><span class="caption-number">Fig. 5 </span><span class="caption-text">Here is where you can find admin option!</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <ul class="simple">
 <li><p>Find the user whose server you want to restart.</p></li>
 </ul>
-<div class="figure align-default" id="id5">
+<div class="figure align-center" id="user-list">
 <a class="reference internal image-reference" href="_images/user.PNG"><img alt="_images/user.PNG" src="_images/user.PNG" style="width: 500px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 6 </span><span class="caption-text">align: center
-:name: User List</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
-<div class="legend">
-<p>Here is how to search for an user!</p>
-</div>
+<p class="caption"><span class="caption-number">Fig. 6 </span><span class="caption-text">Here is how to search for an user!</span><a class="headerlink" href="#user-list" title="Permalink to this image">¶</a></p>
 </div>
 <ul class="simple">
 <li><p>Click restart server option</p></li>
@@ -296,13 +285,9 @@
 <li><p>Search the calnet id of the student’s instance you want to access</p></li>
 <li><p>Click access server option to access student’s instance</p></li>
 </ul>
-<div class="figure align-default" id="id6">
+<div class="figure align-center" id="access-server">
 <a class="reference internal image-reference" href="_images/accessserver.PNG"><img alt="_images/accessserver.PNG" src="_images/accessserver.PNG" style="width: 500px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 7 </span><span class="caption-text">align: center
-:name: Access Server</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
-<div class="legend">
-<p>Here is how to access a server’s instance!</p>
-</div>
+<p class="caption"><span class="caption-number">Fig. 7 </span><span class="caption-text">Here is how to access a server’s instance!</span><a class="headerlink" href="#access-server" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 

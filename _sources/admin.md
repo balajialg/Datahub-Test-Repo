@@ -12,11 +12,15 @@ Admin feature provides the necessary access required to support students using y
 1. You can start and stop the students' server in your dedicated hub
 2. You can access the student server to debug issues in their instance
 
+```{warning}
+Admin privileges are hub-wide. If you're a teaching team member who happens to be also a student in another course on the same hub, then there can be a conflict of interest.
+```
+
 Check this image to know your privileges for the admin option
 
 ```{figure} images/admin.png
 :width: 500px
-align: center
+:align: center
 :name: Datahub Admin
 
 Here is how the admin dashboard looks like!
@@ -35,12 +39,17 @@ If you have admin access and want to know how to access admin portal then use th
 
 ```{figure} images/adminaccess.PNG
 :width: 500px
-align: center
+:align: center
 :name: Datahub Admin snapshot
 
 Here is where you can find admin option!
 ```
 - Once  you click, you have access to instances of users and admins in that specific hub
+
+If you are using the R hub, then you may need to follow the below steps,
+
+- You can replace https://r-staging.datahub.berkeley.edu/user/<<your-calnet-id>>/rstudio/ with https://r-staging.datahub.berkeley.edu/hub/admin to get to the admin interface
+and https://r-staging.datahub.berkeley.edu/hub/home to restart your server
 
 **How do I start a student server?**
 
@@ -48,7 +57,7 @@ Here is where you can find admin option!
 
 ```{figure} images/controlpanel.PNG
 :width: 500px
-align: center
+:align: center
 :name: Control Panel
 
 Here is how the control panel option looks like!
@@ -57,7 +66,7 @@ Here is how the control panel option looks like!
 
 ```{figure} images/adminaccess.PNG
 :width: 500px
-align: center
+:align: center
 :name: Datahub Admin snapshot
 
 Here is where you can find admin option!
@@ -66,7 +75,7 @@ Here is where you can find admin option!
 
 ```{figure} images/user.PNG
 :width: 500px
-align: center
+:align: center
 :name: User List
 
 Here is how to search for an user!
@@ -90,7 +99,7 @@ Here is how to search for an user!
 
 ```{figure} images/accessserver.PNG
 :width: 500px
-align: center
+:align: center
 :name: Access Server
 
 Here is how to access a server's instance!

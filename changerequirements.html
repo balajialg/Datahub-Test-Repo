@@ -213,7 +213,7 @@
 </div>
 <p><strong>What should I do if I want to install more packages?</strong></p>
 <ul class="simple">
-<li><p>Use your datahub instance to install the required version of the package.</p></li>
+<li><p>Use your datahub instance to install the required version of the package. Self installation of packages in your instance of hub is a temporary measure to identify dependencies. If you require a permanent solution then you need to request us to install the package(s) in your hub.</p></li>
 <li><p>If you want to install packages for Python then use the following syntax,</p></li>
 </ul>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">&lt;</span><span class="n">package</span><span class="o">-</span><span class="n">name</span><span class="o">&gt;</span>
@@ -240,12 +240,19 @@
 <p><strong>I am going to run a large dataset for my class. What are the steps I can take to ensure that the hub has the required compute power?</strong></p>
 <p>As a rule of thumb, we recommend the following steps. If these steps are not helpful, then we would recommend reaching out to us separately,</p>
 <ul class="simple">
-<li><p>Github has a file upload limit of 100 MB. We would recommend to keep the size of the dataset below 100 MB for this specific reason.</p></li>
+<li><p>Github has a file upload limit of 100 MB. Considering that, We recommend keeping the dataset size below 100 MB by creating a subset of the dataset for this specific reason.</p></li>
 </ul>
-<p>&lt;- Get team’s inputs -&gt;</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>text
+Most of the issues with the dataset arise due to the programming practices used to operate the dataset, such as a lot of time is spent reading/writing to the disk or single-threaded executions that can max the allocated CPU. Therefore, it would be good to use a profiler to check what is causing the maximum CPU/RAM consumption.</p>
+</div>
+<ul class="simple">
+<li><p>If resizing the dataset is not feasible, Profile your system to understand the CPU/Memory consumption while operating on the dataset. Use this data to take modify your programming practices so that you are within the allocated RAM size. If you are using python, this <a class="reference external" href="https://docs.python.org/3/library/debug.html">resource</a> will be helpful to understand your memory/CPU conusmption. If you are using R, this <a class="reference external" href="https://support.rstudio.com/hc/en-us/articles/218221837-Profiling-R-code-with-the-RStudio-IDE">resource</a> may be helpful with profiling.</p></li>
+</ul>
 <p><strong>What should I do If I want to switch from an existing hub to an R hub?</strong></p>
 <p>You can directly use the <a class="reference external" href="http://r.datahub.berkeley.edu/">R Datahub</a> dedicated to serving courses using R. If you have other specific requirements, please do reach out to us.</p>
-<p>** When can I create a new hub? **</p>
+<p>**When can I create a new hub? **</p>
 <p>We generally prefer using our existing hubs for teaching your courses. Our guiding principles for allowing the creation of new hub follows below,</p>
 <ul class="simple">
 <li><p>When the course has a large user base</p></li>
