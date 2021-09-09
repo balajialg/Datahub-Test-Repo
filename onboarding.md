@@ -87,5 +87,3 @@ We expect that all course members log in using their UC Berkeley email id. We al
 **What if I have a student outside UC Berkeley?**
 
  We can’t allow non UC Berkeley users as our authentication system only allows users with UC Berkeley email id. For such users, We recommend using [Binder service](https://mybinder.org/) to solve for the immediate needs.
- 
- 
