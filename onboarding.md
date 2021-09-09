@@ -2,7 +2,6 @@
 
 ```{note}
 New to Datahub? Interested to learn more about the services offered by the hub? If yes, refer below!
-
 ```
 
 **How can I learn more about Datahub to onboard myself?**
@@ -36,14 +35,17 @@ Our default hub Datahub has a memory limit of 1 GB of RAM. However, please conta
 Here is where you can find the memory related details!
 ```
 
-
 **What are the different services offered as part of the Datahub?**
 
 We offer UI for Classic Jupyter Notebook, RStudio and JupyterLab across different hubs. You can learn more about the varied services offered through this jupyterhubs [documentation](https://docs.datahub.berkeley.edu/en/latest/users/services.html).
 
 **What are the packages pre-installed for every hub?**
 
-Package requirement varies across the different hubs. We ensure that basic python packages such as NumPy, pandas, scikit-learn, matplotlib, etc., are installed across all the Jupyter hubs. Our R hubs also support shiny, dplyr, tidyR, RSQLlite, etc. However, you can customize the packages for the hubs by requesting them using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y). Here is the [list](https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/requirements.txt) of Python packages installed across hubs. Here is the [list](https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/install.R) of R packages installed across hubs.
+Package requirement varies across the different hubs. We ensure that basic python packages such as NumPy, pandas, scikit-learn, matplotlib, etc., are installed across all the Jupyter hubs. Our R hubs also support shiny, dplyr, tidyR, RSQLlite, etc. However, you can customize the packages for the hubs by requesting them using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y). 
+
+```{note}
+Here is the [list](https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/requirements.txt) of Python packages installed across hubs. Here is the [list](https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/install.R) of R packages installed across hubs.
+```
 
 **What is the process to raise Github issues? How can I track the raised issues?**
 
@@ -62,14 +64,15 @@ Please refer to the below Service Level Agreement (SLA) for varied requests. It 
 
 You can refer to the following templates catering to varied scenarios,
 
-**Issue Tracker:** 
-If you found a bug in the workflow, Please use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml) to raise an issue.
+**Raise Bugs:** If you found a bug in the workflow, Please use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml) to raise an issue.
 
-**New Enhancement:** If you envision a new feature/documentation that would help your existing workflow, please use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=type%3A+enhancement&template=featurerequest.md) to submit a request.
+**Share a New Enhancement:** If you envision a new feature/documentation that would help your existing workflow, please use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=type%3A+enhancement&template=featurerequest.md) to submit a request.
 
-**Package Addition/Change request:** If you want to install new packages in R/Python/Julia as part of your hub, please raise a request using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=higher-resources.md&title=Request+more+RAM+for+class+X).
+**Request Package Addition/Change:** If you want to install new packages in R/Python/Julia as part of your hub, please raise a request using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y).
 
-**Request for RAM:** If you want to increase/decrease RAM for a specific hub then please use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y) to make the request.
+**Request for RAM/CPU:** If you want to increase/decrease RAM for a specific hub then please use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=higher-resources.md&title=Request+more+RAM+for+class+X) to make the request.
+
+**Request Admin Access:** If you want members of your teaching team to have admin access then please use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=admin_request.yml) to make this request.
 
 **Request to recover hub data:** If you want to request data stored as part of your hub instance, then please do use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=data_archival_request.yml) to raise a request
 
@@ -79,6 +82,6 @@ Honestly, nothing! You are free to go ahead and start using the Datahub starting
 
 ** What if I have a student outside UC Berkeley?**
 
- We can’t allow non UC Berkeley users because our authentication system allows only users with UC Berkeley email id. We recommend using [Binder service](https://mybinder.org/) to solve for the immediate needs.
+ We can’t allow non UC Berkeley users as our authentication system only allows users with UC Berkeley email id. For such users, We recommend using [Binder service](https://mybinder.org/) to solve for the immediate needs.
  
  

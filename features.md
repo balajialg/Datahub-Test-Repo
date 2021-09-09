@@ -7,11 +7,11 @@ Have suggestions on new ways to improve our offering? If yes, read below!
 
 **How do I raise a new requirement for the hub?**
 
-We are always open to new ways to support the campus community using Datahub. If you have a new requirement, Raise a new github issue using this [link](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=type%3A+enhancement&template=featurerequest.md). Follow the steps outlined as part of the template to make the case for this enhancement.
+We are always open to new ways of supporting the campus community using Datahub. If you have a new requirement, Raise a new GitHub issue using this [link](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=type%3A+enhancement&template=featurerequest.md). Follow the steps outlined as part of the template to make a case for this enhancement.
 
 **Where will I get updates/notifications about the Datahub feature releases?**
 
-We are trying to build a cadence by which we send public announcements about feature releases or version upgrades in the upcoming months. Do watch out for emails from datahub-announce list!
+We are trying to build a cadence by sending public announcements about feature releases or version upgrades in the upcoming months. So do watch out for emails from the datahub-announce list!
  
 **How can I collaborate with other users on a notebook at the same time?**
 

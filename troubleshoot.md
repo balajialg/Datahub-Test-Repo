@@ -9,7 +9,7 @@ Facing issues with your hub and want to do some basic troubleshooting before esc
 
 Try these recommended options,
 
-- Restart your kernel
+- Restart your kernel.
 
 - Check whether there are lot of open tabs? If yes, close the tabs that are not required.
 
@@ -18,7 +18,7 @@ If you still face the issue, raise a [bug](https://github.com/berkeley-dsep-infr
 
 **What should I do if my code is running slow?**
 
-In general, it could be attributed to the varied programming practices adopted that might have slowed the operation of the hub. Check whether your code does any of the following, 
+In general, this issue could be attributed to the varied programming practices adopted that might have slowed the operation of the hub. Check whether your code does any of the following, 
 
 - You are running an infinite loop 
 - Your computation/calculation is big 
@@ -53,10 +53,9 @@ rm -f ~/.local/share/jupyter/nbsignatures.db
 If the error still persists, raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml).
 
 **What should I do if there is a package conflict?**
-**What should I do if there is a package conflict?**
 
 [Get inputs from the team]
-Try moving to the previous version of the package and check if there are conflicts. If it still exists, Raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml)
+Try moving to the previous version of the package and check if there are package conflicts. If it still exists, Raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml)
 
 **What should I do if my kernel dies?**
 
@@ -83,12 +82,12 @@ Please follow this workaround until a fix can be identified and implemented. Wor
 - If that doesn't solve the issue, raise a request using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml)
 
 ```{note}
-These issues are challenging to reproduce. It will be helpful if you are as specific as you can with regards to the steps required to reproduce,
+Generally, These issues are challenging to reproduce. It will be helpful if you can be as specific as you can with regards to the steps required to reproduce the issue. We generally observe that the back and forth communication required to reproduce the issue for a request **that is not specific** increases the time needed to fix the issue exponentially.
 ```
 
 **What should I do if I have an issue that has not been documented in the FAQ?**
 
-Raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose)! We will keep adding common issues to this FAQ!
+Raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose) or reach out to Balaji Alwar(balajialwar@berkeley.edu)! We will keep adding common issues to this FAQ document!
 
 **What should I do if I have issues with my nbgitpuller set up**
 
@@ -104,3 +103,12 @@ Try the following steps from scratch again,
 Check this [documentation](https://jupyterhub.github.io/nbgitpuller/topic/repo-best-practices.html) are some tips to ensure that you don't get into git related issues. 
 Check this [documentation](https://jupyterhub.github.io/nbgitpuller/) if you have issues setting up nbgitpuller!
 ```
+
+**I am having issues with generating the zip file after running my code in the hub. What should I do?**
+
+If you got this error after running this command mentioned below, this is most likely an issue that the Otter team can debug. You can either access their [slack channel](https://join.slack.com/t/otter-grader/shared_invite/zt-bzfqbl82-C1s~YUBkbzvTcPCK60OOgg) or raise a [github issue](https://github.com/ucbds-infra/otter-grader) to seek their inputs directly.
+
+```python
+grader.export(pdf=False, force_save=True)
+```
+

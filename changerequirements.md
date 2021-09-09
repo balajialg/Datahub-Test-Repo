@@ -42,9 +42,15 @@ We offer hubs to support the teaching practices of our instructors. If you are i
 
 As a rule of thumb, we recommend the following steps. If these steps are not helpful, then we would recommend reaching out to us separately,
 
-- Github has a file upload limit of 100 MB. We would recommend to keep the size of the dataset below 100 MB for this specific reason. 
+- Github has a file upload limit of 100 MB. Considering that, We recommend keeping the dataset size below 100 MB by creating a subset of the dataset for this specific reason. 
  
-- Profile your system to understand the CPU/Memory consumption. If you are using python, this [resource](https://docs.python.org/3/library/debug.html) will be helpful to understand your memory/CPU usage. If you are using R, this [resource](https://support.rstudio.com/hc/en-us/articles/218221837-Profiling-R-code-with-the-RStudio-IDE) may be helpful with profiling.
+ ```{tip} text
+Most of the issues with the dataset arise due to the programming practices used to operate the dataset, such as a lot of time is spent reading/writing to the disk or single-threaded executions that can max the allocated CPU. Therefore, it would be good to use a profiler to check what is causing the maximum CPU/RAM consumption.
+```
+ 
+- If resizing the dataset is not feasible, Profile your system to understand the CPU/Memory consumption while operating on the dataset. Use this data to take modify your programming practices so that you are within the allocated RAM size. If you are using python, this [resource](https://docs.python.org/3/library/debug.html) will be helpful to understand your memory/CPU conusmption. If you are using R, this [resource](https://support.rstudio.com/hc/en-us/articles/218221837-Profiling-R-code-with-the-RStudio-IDE) may be helpful with profiling.
+
+
 
 **What should I do If I want to switch from an existing hub to an R hub?**
 
