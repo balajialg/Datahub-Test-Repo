@@ -7,7 +7,7 @@ Interested to learn more about how to change the default requirements for your h
 
 **What should I do if I want to install more packages?**
 
-- Use your datahub instance to install the required version of the package. 
+- Use your datahub instance to install the required version of the package. Self installation of packages in your instance of hub is a temporary measure to identify dependencies. If you require a permanent solution then you need to request us to install the package(s) in your hub. 
 
 - If you want to install packages for Python then use the following syntax,
 
@@ -44,13 +44,13 @@ As a rule of thumb, we recommend the following steps. If these steps are not hel
 
 - Github has a file upload limit of 100 MB. We would recommend to keep the size of the dataset below 100 MB for this specific reason. 
  
-<- Get team's inputs ->
+- Profile your system to understand the CPU/Memory consumption. If you are using python, this [resource](https://docs.python.org/3/library/debug.html) will be helpful to understand your memory/CPU usage. If you are using R, this [resource](https://support.rstudio.com/hc/en-us/articles/218221837-Profiling-R-code-with-the-RStudio-IDE) may be helpful with profiling.
 
 **What should I do If I want to switch from an existing hub to an R hub?**
 
 You can directly use the [R Datahub](http://r.datahub.berkeley.edu/) dedicated to serving courses using R. If you have other specific requirements, please do reach out to us.
 
-** When can I create a new hub? **
+**When can I create a new hub? **
 
 We generally prefer using our existing hubs for teaching your courses. Our guiding principles for allowing the creation of new hub follows below,
 

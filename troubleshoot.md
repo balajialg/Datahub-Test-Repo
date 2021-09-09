@@ -1,19 +1,20 @@
 # Troubleshooting issues in the Hub
 
 ```{note}
-Are you facing issues with the Datahub and want to do some troubleshooting? If yes, read below!
+Facing issues with your hub and want to do some basic troubleshooting before escalating issues to us? If yes, read below!
 
 ```
 
 **What should I do if my hub is running slow?**
 
-Try these options and see if the hub speed improves,
+Try these recommended options,
 
 - Restart your kernel
 
 - Check whether there are lot of open tabs? If yes, close the tabs that are not required.
 
-- If you still face the issue, raise a [bug](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml)!
+
+If you still face the issue, raise a [bug](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml)!
 
 **What should I do if my code is running slow?**
 
@@ -25,15 +26,15 @@ In general, it could be attributed to the varied programming practices adopted t
 - You have too many notebooks open at the same time
 - You are trying to show a table which is too large and as a result are crashing the browser
 
-If none of the highlighted points seem relevant in your scenario, Please raise a [bug request](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml)! If they are relevant, try fixing these issues by improving the programming practices or reducing the size of the dataset. 
+If they are relevant, try fixing these issues by improving the programming practices or reducing the size of the dataset. If none of the highlighted points seem relevant in your scenario, Please raise a [bug request](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml)!
 
 **What should I do if I get "503 service unavailable error" regularly?**
 
-Sorry, that you had to face this error. This error could be due to some of our stability improvements. Try restarting your server and wait for few minutes to see whether the issue still persists. If yes, raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose).
+Sorry, that you had to face this error! This error could be due to some of our stability improvements. Try restarting your server and wait for few minutes to see whether the issue still persists. If yes, raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose).
 
 **What should I do if I get "403 errors: Blocking request from unknown origin" regularly?**
 
-Sorry, that you had to face this error. This error could be due to multiple reasons outlined below, 
+Sorry, that you had to face this error! This error could be due to multiple reasons outlined below, 
 
 - You are using email id with a different domain other than berkeley.edu to authenticate with Datahub which could have potentially raised this error. Raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml), so that we can authorize your domain.
 
@@ -52,6 +53,7 @@ rm -f ~/.local/share/jupyter/nbsignatures.db
 If the error still persists, raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml).
 
 **What should I do if there is a package conflict?**
+**What should I do if there is a package conflict?**
 
 [Get inputs from the team]
 Try moving to the previous version of the package and check if there are conflicts. If it still exists, Raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml)
@@ -59,6 +61,11 @@ Try moving to the previous version of the package and check if there are conflic
 **What should I do if my kernel dies?**
 
 As a rule of thumb, restart the kernel whenever it dies. This should work for most scenarios.
+
+```{note}
+Kernel deaths are a common cause for hub(s) running out of memory. As soon as you exceed your memory allocation, your kernel most probably will die because of the lack of availability of virtual memory or swap space.
+
+```
 
 **What should I do if I am getting RStudio Initialization Error: Error occurred during transmission error.**
 
@@ -71,8 +78,29 @@ Please follow this workaround until a fix can be identified and implemented. Wor
 
 **What should I do if R Studio times out and kicks me out every 5 minutes or so?**
 
-[Get inputs from team on how to handle this scenario]
+- Check if this is a browser or network issue
+
+- If that doesn't solve the issue, raise a request using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml)
+
+```{note}
+These issues are challenging to reproduce. It will be helpful if you are as specific as you can with regards to the steps required to reproduce,
+```
 
 **What should I do if I have an issue that has not been documented in the FAQ?**
 
 Raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose)! We will keep adding common issues to this FAQ!
+
+**What should I do if I have issues with my nbgitpuller set up**
+
+Try the following steps from scratch again,
+
+- Enter the details for your hub.
+
+- Re-name the folder where you need to pull from to do a fresh pull request. 
+
+- Check whether you should have followed good practices for setting up your repo. Check if there are files that should not be present. 
+
+```{note}
+Check this [documentation](https://jupyterhub.github.io/nbgitpuller/topic/repo-best-practices.html) are some tips to ensure that you don't get into git related issues. 
+Check this [documentation](https://jupyterhub.github.io/nbgitpuller/) if you have issues setting up nbgitpuller!
+```

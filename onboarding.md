@@ -7,7 +7,11 @@ New to Datahub? Interested to learn more about the services offered by the hub? 
 
 **How can I learn more about Datahub to onboard myself?**
 
-If you are new to Datahub and want to know more, refer to our [website](https://datahub.berkeley.edu/hub/login?next=%2Fhub%2F). If you are interested in learning more about the configuration of various Berkeley hubs, you can refer to this [resource](https://docs.datahub.berkeley.edu/en/latest/). If you want to set up a hub infrastructure at your end and are interested in learning more about the technical details, use this [resource](https://zero-to-jupyterhub.readthedocs.io/en/latest/).
+- If you are new to Datahub and want to know more, refer to our [website](https://datahub.berkeley.edu/hub/login?next=%2Fhub%2F). 
+
+- If you are interested in learning more about the configuration of various Berkeley hubs, you can refer to this [resource](https://docs.datahub.berkeley.edu/en/latest/). 
+
+- If you want to set up a hub infrastructure at your end and are interested in learning more about the technical details, use this [resource](https://zero-to-jupyterhub.readthedocs.io/en/latest/).
 
 **What languages are supported by the hub?**
 
@@ -26,7 +30,7 @@ Our default hub Datahub has a memory limit of 1 GB of RAM. However, please conta
 
 ```{figure} images/memory.png
 :width: 500px
-align: center
+:align: center
 :name: Available Memory
 
 Here is where you can find the memory related details!
@@ -73,3 +77,8 @@ If you found a bug in the workflow, Please use this [template](https://github.co
 
 Honestly, nothing! You are free to go ahead and start using the Datahub starting today. We expect that all course members log in using their UC Berkeley email id. We also expect that you are using [nbgitpuller service](https://jupyterhub.github.io/nbgitpuller/link) to distribute materials to your class. We can help you set up the links so that you can distribute them through your course website. 
 
+** What if I have a student outside UC Berkeley?**
+
+ We can’t allow non UC Berkeley users because our authentication system allows only users with UC Berkeley email id. We recommend using [Binder service](https://mybinder.org/) to solve for the immediate needs.
+ 
+ 
