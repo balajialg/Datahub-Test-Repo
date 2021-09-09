@@ -78,9 +78,13 @@ You can refer to the following templates catering to varied scenarios,
 
 **As an instructor what do I need to do to set up the hub for my course?**
 
-Honestly, nothing! You are free to go ahead and start using the Datahub starting today. We expect that all course members log in using their UC Berkeley email id. We also expect that you are using [nbgitpuller service](https://jupyterhub.github.io/nbgitpuller/link) to distribute materials to your class. We can help you set up the links so that you can distribute them through your course website. 
+Honestly, nothing! You are free to go ahead and start using the Datahub starting today. 
 
-** What if I have a student outside UC Berkeley?**
+```{note}
+We expect that all course members log in using their UC Berkeley email id. We also expect that you are using [nbgitpuller service](https://jupyterhub.github.io/nbgitpuller/link) to distribute materials to your class. We can help you set up the links so that you can distribute them through your course website. 
+```
+
+**What if I have a student outside UC Berkeley?**
 
  We can’t allow non UC Berkeley users as our authentication system only allows users with UC Berkeley email id. For such users, We recommend using [Binder service](https://mybinder.org/) to solve for the immediate needs.
  

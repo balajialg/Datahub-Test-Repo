@@ -26,7 +26,7 @@ In general, this issue could be attributed to the varied programming practices a
 - You have too many notebooks open at the same time
 - You are trying to show a table which is too large and as a result are crashing the browser
 
-If they are relevant, try fixing these issues by improving the programming practices or reducing the size of the dataset. If none of the highlighted points seem relevant in your scenario, Please raise a [bug request](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml)!
+If they are relevant, try fixing these issues by improving the programming practices or by reducing the size of the dataset. If none of the highlighted points seem relevant in your scenario, Please raise a [bug request](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml)!
 
 **What should I do if I get "503 service unavailable error" regularly?**
 
@@ -100,7 +100,8 @@ Try the following steps from scratch again,
 - Check whether you should have followed good practices for setting up your repo. Check if there are files that should not be present. 
 
 ```{note}
-Check this [documentation](https://jupyterhub.github.io/nbgitpuller/topic/repo-best-practices.html) are some tips to ensure that you don't get into git related issues. 
+Check this [documentation](https://jupyterhub.github.io/nbgitpuller/topic/repo-best-practices.html) for some tips to ensure that you don't get into git related issues. 
+
 Check this [documentation](https://jupyterhub.github.io/nbgitpuller/) if you have issues setting up nbgitpuller!
 ```
 

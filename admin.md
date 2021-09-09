@@ -46,10 +46,12 @@ Here is where you can find admin option!
 ```
 - Once  you click, you have access to instances of users and admins in that specific hub
 
+```{note}
 If you are using the R hub, then you may need to follow the below steps,
 
-- You can replace https://r-staging.datahub.berkeley.edu/user/<<your-calnet-id>>/rstudio/ with https://r-staging.datahub.berkeley.edu/hub/admin to get to the admin interface
-and https://r-staging.datahub.berkeley.edu/hub/home to restart your server
+- You can replace https://r-staging.datahub.berkeley.edu/user/your-calnet-id/rstudio/ with https://r-staging.datahub.berkeley.edu/hub/admin to access the admin interface.
+- You can use https://r-staging.datahub.berkeley.edu/hub/home to restart your server.
+```
 
 **How do I start a student server?**
 
