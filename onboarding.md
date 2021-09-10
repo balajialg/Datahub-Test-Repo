@@ -53,7 +53,9 @@ If you want to raise a bug, you can use this [link](https://github.com/berkeley-
 
 **When do I receive a response when an issue gets raised?**
 
-Please refer to the below Service Level Agreement (SLA) for varied requests. It will be finalized soon,
+```{note}
+Please refer to the below Service Level Agreement (SLA) for varied requests. Time for this SLA will start from the time when we have complete information required as part of these templates,
+```
 
 - SLA for package installation: "Acknowledgement within two working days."
 - SLA for RAM increase: "Acknowledgement within two working days."
