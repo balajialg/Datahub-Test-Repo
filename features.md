@@ -1,4 +1,4 @@
-# Requesting new features in hub
+# Requesting new features in the Hub
 
 ```{note}
 Have suggestions on new ways to improve our offering? If yes, read below!
@@ -14,7 +14,7 @@ We are always open to new ways of supporting the campus community using Datahub.
 We are trying to build a cadence by sending public announcements about feature releases or version upgrades in the upcoming months. So do watch out for emails from the datahub-announce list!
 
 ```{tip}
-If you are interested to know more about our current priorities for the Datahub, then check our [sprint board](https://github.com/berkeley-dsep-infra/datahub/projects)
+If you are interested to track our current priorities for this project, then check our [sprint board](https://github.com/berkeley-dsep-infra/datahub/projects)
 ```
  
 **How can I collaborate with other users on a notebook at the same time?**
