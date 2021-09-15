@@ -92,7 +92,7 @@
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="changerequirements.html">
-   Changing existing requirements
+   Changing existing requirements in the hub
   </a>
  </li>
  <li class="toctree-l1">
@@ -234,7 +234,7 @@
 <p>Sorry, that you had to face this error! This error could be due to multiple reasons outlined below,</p>
 <ul class="simple">
 <li><p>You are using email id with a different domain other than <a class="reference external" href="http://berkeley.edu">berkeley.edu</a> to authenticate with Datahub which could have potentially raised this error. Raise a github <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=bug&amp;template=bug_report.yml">issue</a>, so that we can authorize your domain.</p></li>
-<li><p>Large number of your students are trying to use the service resulting in failure of certain nodes. We are working on improving how we scale the hub with large volume of users.</p></li>
+<li><p>Large number of your students are trying to use the service resulting in failure of certain nodes. You can wait for few minutes to see whether the error gets resolved as our system autoscales. If it doesn’t then escalate the issue. We are working on improving how we scale the hub when large volume of users enter our hubs at the same time.</p></li>
 </ul>
 <p>Raise a github <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=bug&amp;template=bug_report.yml">issue</a>!</p>
 <p><strong>What should I do if I get an “An unknown error occurred while loading this notebook” as part of the datahub service?</strong></p>
@@ -257,20 +257,18 @@ Try moving to the previous version of the package and check if there are package
 <ol class="simple">
 <li><p>Go to this <a class="reference external" href="https://r.datahub.berkeley.edu/user-redirect/tree">link</a></p></li>
 <li><p>Click New-&gt;Terminal</p></li>
-<li><p>In the terminal, type: mv .rstudio .rstudio.$(date +%s) and press return</p></li>
+<li><p>In the terminal, type: <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">mv</span> <span class="pre">.rstudio</span> <span class="pre">.rstudio.$(date</span> <span class="pre">+%s)</span> </code> and press return</p></li>
 <li><p>Try to launch rstudio as you normally would and it should now work.</p></li>
 </ol>
 <p><strong>What should I do if R Studio times out and kicks me out every 5 minutes or so?</strong></p>
 <ul class="simple">
-<li><p>Check if this is a browser or network issue</p></li>
-<li><p>If that doesn’t solve the issue, raise a request using this <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=bug&amp;template=bug_report.yml">template</a></p></li>
+<li><p>Check if this is a browser or network issue at your end</p></li>
+<li><p>If it is not an issue at your end, raise a request using this <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=bug&amp;template=bug_report.yml">template</a></p></li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>As a general note, These issues are challenging to reproduce. It will be helpful if you can be as specific as you can with regards to the steps required to reproduce the issue. We generally observe that the back and forth communication required to reproduce the issue for a request <strong>that is not specific</strong> increases the time needed to fix the issue exponentially.</p>
 </div>
-<p><strong>What should I do if I have an issue that has not been documented in the FAQ?</strong></p>
-<p>Raise a github <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new/choose">issue</a> or reach out to Balaji Alwar(<a class="reference external" href="mailto:balajialwar&#37;&#52;&#48;berkeley&#46;edu">balajialwar<span>&#64;</span>berkeley<span>&#46;</span>edu</a>)! We will keep adding common issues to this FAQ document!</p>
 <p><strong>What should I do if I have issues with my nbgitpuller set up</strong></p>
 <p>Try the following steps from scratch again,</p>
 <ul class="simple">
@@ -288,6 +286,8 @@ Try moving to the previous version of the package and check if there are package
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">grader</span><span class="o">.</span><span class="n">export</span><span class="p">(</span><span class="n">pdf</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">force_save</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
 </div>
+<p><strong>What should I do if I have an issue that has not been documented in the FAQ?</strong></p>
+<p>Raise a github <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new/choose">issue</a> or reach out to Balaji Alwar(<a class="reference external" href="mailto:balajialwar&#37;&#52;&#48;berkeley&#46;edu">balajialwar<span>&#64;</span>berkeley<span>&#46;</span>edu</a>)! We will keep adding common issues to this FAQ document!</p>
 </div>
 
     <script type="text/x-thebe-config">

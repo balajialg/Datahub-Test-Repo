@@ -38,7 +38,7 @@ Sorry, that you had to face this error! This error could be due to multiple reas
 
 - You are using email id with a different domain other than berkeley.edu to authenticate with Datahub which could have potentially raised this error. Raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml), so that we can authorize your domain.
 
-- Large number of your students are trying to use the service resulting in failure of certain nodes. We are working on improving how we scale the hub with large volume of users.
+- Large number of your students are trying to use the service resulting in failure of certain nodes. You can wait for few minutes to see whether the error gets resolved as our system autoscales. If it doesn't then escalate the issue. We are working on improving how we scale the hub when large volume of users enter our hubs at the same time.
 
 Raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml)!
 
@@ -72,22 +72,18 @@ Please follow this workaround until a fix can be identified and implemented. Wor
 
 1. Go to this [link](https://r.datahub.berkeley.edu/user-redirect/tree)
 2. Click New->Terminal
-3. In the terminal, type: mv .rstudio .rstudio.$(date +%s) and press return
+3. In the terminal, type: ```python mv .rstudio .rstudio.$(date +%s) ``` and press return
 4. Try to launch rstudio as you normally would and it should now work.
 
 **What should I do if R Studio times out and kicks me out every 5 minutes or so?**
 
-- Check if this is a browser or network issue
+- Check if this is a browser or network issue at your end
 
-- If that doesn't solve the issue, raise a request using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml)
+- If it is not an issue at your end, raise a request using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml)
 
 ```{note}
 As a general note, These issues are challenging to reproduce. It will be helpful if you can be as specific as you can with regards to the steps required to reproduce the issue. We generally observe that the back and forth communication required to reproduce the issue for a request **that is not specific** increases the time needed to fix the issue exponentially.
 ```
-
-**What should I do if I have an issue that has not been documented in the FAQ?**
-
-Raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose) or reach out to Balaji Alwar(balajialwar@berkeley.edu)! We will keep adding common issues to this FAQ document!
 
 **What should I do if I have issues with my nbgitpuller set up**
 
@@ -112,4 +108,8 @@ If you got this error after running this command mentioned below, this is most l
 ```python
 grader.export(pdf=False, force_save=True)
 ```
+
+**What should I do if I have an issue that has not been documented in the FAQ?**
+
+Raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose) or reach out to Balaji Alwar(balajialwar@berkeley.edu)! We will keep adding common issues to this FAQ document!
 

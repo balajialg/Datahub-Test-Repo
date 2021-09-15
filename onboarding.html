@@ -51,7 +51,7 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Changing existing requirements" href="changerequirements.html" />
+    <link rel="next" title="Changing existing requirements in the hub" href="changerequirements.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -91,7 +91,7 @@
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="changerequirements.html">
-   Changing existing requirements
+   Changing existing requirements in the hub
   </a>
  </li>
  <li class="toctree-l1">
@@ -237,7 +237,8 @@
 <p>Package installation varies across the different hubs. We ensure that basic python packages such as numPy, pandas, scikit-learn, matplotlib, etc., are installed across all the Jupyter hubs. Our R hubs also support shiny, dplyr, tidyR, RSQLlite, etc. However, you can customize the packages for the hubs by requesting them using this <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=support&amp;template=datahub-package-addition---change-request.md&amp;title=Request+python+package+X+for+class+Y">template</a>.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Here is the <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/requirements.txt">list</a> of Python packages installed across hubs. Here is the <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/install.R">list</a> of R packages installed across hubs.</p>
+<p>Here is the <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/requirements.txt">list</a> of Python packages installed across hubs. Here is the <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/install.R">list</a> of R packages installed across hubs.
+Self installation of packages in your instance of hub doesn’t persist across sessions. You need to raise a <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=support&amp;template=datahub-package-addition---change-request.md&amp;title=Request+python+package+X+for+class+Y">package request</a> to us to enable package persistence.</p>
 </div>
 <p><strong>What is the process to raise Github issues? How can I track the raised issues?</strong></p>
 <p>If you want to raise a bug, you can use this <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new/choose">link</a> to submit your issues. You can also use post messages to our <a class="reference external" href="https://piazza.com/class/ksqmnrrhvcl11f">Piazza channel</a> if you require real time troubleshooting!</p>
@@ -271,7 +272,7 @@
 <p>We expect that all course members log in using their UC Berkeley email id. We also expect that you are using <a class="reference external" href="https://jupyterhub.github.io/nbgitpuller/link">nbgitpuller service</a> to distribute materials to your class. We can help you set up the links so that you can distribute through your course website.</p>
 </div>
 <p><strong>What if I have a student outside UC Berkeley?</strong></p>
-<p>We can’t allow non UC Berkeley users as our authentication system only allows users with UC Berkeley email id. For such users, We recommend using <a class="reference external" href="https://mybinder.org/">Binder service</a> to solve for the immediate needs.</p>
+<p>We don’t allow non-UC Berkeley users to log into the Datahub instance directly. Our authentication system is designed to allow users with UC Berkeley email id. For such users, We recommend using <a class="reference external" href="https://mybinder.org/">Binder service</a> to solve for the immediate teaching needs.</p>
 <div class="toctree-wrapper compound">
 </div>
 </div>
@@ -309,7 +310,7 @@
         <a class="right-next" href="changerequirements.html" title="next page">
             <div class="prevnext-info">
                 <p class="prevnext-label">next</p>
-                <p class="prevnext-title">Changing existing requirements</p>
+                <p class="prevnext-title">Changing existing requirements in the hub</p>
             </div>
             <i class="prevnext-label fas fa-angle-right"></i>
         </a>
