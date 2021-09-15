@@ -23,4 +23,4 @@ We don't have options to collaborate with other users using any of our hubs at t
 
 **How can I contribute to the open source community building this tool?**
 
-Thanks for thinking about contributing to this amazing community. Reach out to us! You can get a sense of how to contribute to Datahub by reading this [link](https://docs.datahub.berkeley.edu/en/latest/admins/pre-reqs.html).
+Thanks for thinking about contributing to this amazing community. You can get a sense of how to contribute to Datahub by reading this [link](https://docs.datahub.berkeley.edu/en/latest/admins/pre-reqs.html). Reach out to us if you are interested to know more!

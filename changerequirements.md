@@ -1,4 +1,4 @@
-# Changing existing requirements
+# Changing existing requirements in the hub
 
 ```{note}
 Interested to learn more about how to change the default requirements for your hub? If yes, read below!
@@ -7,7 +7,7 @@ Interested to learn more about how to change the default requirements for your h
 
 **What should I do if I want to install more packages?**
 
-- Use your datahub instance to install the required version of the package. Self installation of packages in your instance of hub is a temporary measure to identify dependencies. If you require a permanent solution then you need to [request](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y) us to install the required package(s) in your hub.
+- Use your datahub instance to install the required version of the package. Unfortunately, the self-installation of packages in your instance of the hub is not persistent. If you require a package solution that persists, then you need to make a [request](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y) to us to install the required package(s) in your hub.
 
 - If you want to install packages for Python in your instance, then use the following syntax,
 
@@ -28,7 +28,7 @@ install.packages("ggplot2")
 
 **What should I do if I want to increase the RAM size/CPU power in my hub?**
 
-We recommend instructors to adapt the materials to the 1GB requirement of the Datahub as it is convenient for most usecases. However, If you have a compelling reason to request for more RAM/CPU, use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=higher-resources.md&title=Request+more+RAM+for+class+X). Provide rationale for this upgrade as it has cost implications for the service.
+We recommend instructors to adapt the materials to the 1GB requirement of the Datahub as it is convenient for most usecases. However, If you have a compelling reason to request for more RAM/CPU, make a request using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=higher-resources.md&title=Request+more+RAM+for+class+X). Provide rationale for this upgrade as it has cost implications for the service.
 
 **As an instructor, What should I do if I want to conduct a workshop? Are there any existing hubs that I could repurpose?**
 
@@ -36,7 +36,7 @@ Yes. We certainly do support using our hubs for workshops. For example, [D-Lab](
 
 Please send an email to Eric Van Dusen (ericvd@berkeley.edu)/Balaji Alwar (balajialwar@berkeley.edu) with the specific request you have in mind. 
 
-```{note}
+```{tip}
 We would like to know 
 - Your exact need
 - Memory/CPU requirement 

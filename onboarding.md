@@ -42,10 +42,11 @@ We offer UI for Classic Jupyter Notebook, RStudio and JupyterLab across differen
 
 **What are the packages pre-installed for every hub?**
 
-Package installation varies across the different hubs. We ensure that basic python packages such as numPy, pandas, scikit-learn, matplotlib, etc., are installed across all the Jupyter hubs. Our R hubs also support shiny, dplyr, tidyR, RSQLlite, etc. However, you can customize the packages for the hubs by requesting them using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y).
+Package installation varies across the different hubs. We ensure that basic python packages such as numPy, pandas, scikit-learn, matplotlib, etc., are installed across all the Jupyter hubs. Our R hubs also support shiny, dplyr, tidyR, RSQLlite, etc. However, you can customize the packages for the hubs by requesting them using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y). 
 
 ```{note}
 Here is the [list](https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/requirements.txt) of Python packages installed across hubs. Here is the [list](https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/install.R) of R packages installed across hubs.
+Self installation of packages in your instance of hub doesn't persist across sessions. You need to raise a [package request](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y) to us to enable package persistence.
 ```
 
 **What is the process to raise Github issues? How can I track the raised issues?**
@@ -93,4 +94,4 @@ We expect that all course members log in using their UC Berkeley email id. We al
 
 **What if I have a student outside UC Berkeley?**
 
-We can’t allow non UC Berkeley users as our authentication system only allows users with UC Berkeley email id. For such users, We recommend using [Binder service](https://mybinder.org/) to solve for the immediate needs.
+We don’t allow non-UC Berkeley users to log into the Datahub instance directly. Our authentication system is designed to allow users with UC Berkeley email id. For such users, We recommend using [Binder service](https://mybinder.org/) to solve for the immediate teaching needs.
